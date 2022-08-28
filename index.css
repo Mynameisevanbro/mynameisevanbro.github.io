@@ -1,10 +1,87 @@
 *{
+	position: absolute;
 	font-family: 'Poppins';
 	background: rgb(50, 50, 50);
-	color: white;
 }
-/* main */
-#gd{
-	margin: 0px;
+
+
+/* animations */
+@keyframes text_load {
+	0% {
+		font-size: 0px;
+	}
+}
+
+
+@keyframes slide_right {
+    0% {
+        transform: translateX(-100%);
+    }
+}
+
+
+@keyframes title_load {
+	0% {
+		opacity: 0;
+		margin-left: 0;
+		margin-top: 0;
+	}
+	100% {
+		opacity: 1;
+		margin-left: vw / 20;
+		margin-top: vh / 40;
+	}
+}
+
+@keyframes button1_hover {
+	0% {
+		border: 1px rgb(100, 100, 100) solid;
+	}
+	100% {
+		border: 1px white solid;
+	}
+}
+
+
+/* classes */
+
+
+.button1 {
+	color: white;
+	border: 1px rgb(100, 100, 100) solid;
+	background-color: rgb(100, 100, 100);
+}
+
+.button1:hover {
 	border: 1px white solid;
+	/* animation */
+	animation-name: button1_hover;
+	animation-duration: 1s;
+}
+
+
+/* main */
+#title_graphic {
+	/* animation */
+	animation-name: title_load;
+	animation-duration: 2s;
+}
+
+
+#title_start {
+	/* animation */
+	animation-name: slide_right;
+	animation-duration: 1s;
+}
+
+#title_select {
+	/* animation */
+	animation-name: slide_right;
+	animation-duration: 1.5s;
+}
+
+#title_credit {
+	/* animation */
+	animation-name: slide_right;
+	animation-duration: 2s;
 }
