@@ -3,6 +3,7 @@ var format = "mobile"
 var canvas_width = 50
 var canvas_height = 50
 var page = "title"
+var selected = []
 
 
 // GUI
@@ -30,13 +31,9 @@ function canvas_rect(rect, color) {
 
 
 function hide_all() {
-	// hide elements
-	document.getElementById("title_start").style.display = "none";
-	document.getElementById("title_setting").style.display = "none";
-	document.getElementById("title_credit").style.display = "none";
-	document.getElementById("title_select_back").style.display = "none";
-	document.getElementById("title_select_set1").style.display = "none";
-
+	// hide pages
+	document.getElementById("page_title").style.display = "none";
+	document.getElementById("page_title_select").style.display = "none";
 }
 
 
@@ -54,10 +51,8 @@ function page_title() {
 	// define canvas
 	const canvas = document.getElementById("title_graphic");
 	const ctx = canvas.getContext("2d");
-	// show elements
-	document.getElementById("title_start").style.display = "initial";
-	document.getElementById("title_setting").style.display = "initial";
-	document.getElementById("title_credit").style.display = "initial";
+	// show page
+	document.getElementById("page_title").style.display = "initial";
 	// mobile format view
 	if (format == "PC") {
 		// apply canvas dimensions
@@ -169,9 +164,8 @@ function page_title_select() {
 	// define canvas
 	const canvas = document.getElementById("title_graphic");
 	const ctx = canvas.getContext("2d");
-	// show elements
-	document.getElementById("title_select_back").style.display = "initial";
-	document.getElementById("title_select_set1").style.display = "initial";
+	// show page
+	document.getElementById("page_title_select").style.display = "initial";
 	// mobile format view
 	if (format == "PC") {
 		// apply canvas dimensions
@@ -184,7 +178,7 @@ function page_title_select() {
 		// render title view
 		canvas_rect([0, 0, canvas_width, canvas_height], "rgb(100, 100, 100)");
 		// draw title
-		let x = canvas_width / 10;
+		let x = h;
 		let y = canvas_height / 14;
 		canvas_text("Select set", [x, y], canvas_height / 16, "white", "Poppins", "left");
 		// draw subtitle
@@ -199,13 +193,15 @@ function page_title_select() {
 		button.style.marginTop = `${h / 8}px`;
 		button.style.borderRadius = `${h / 8}px`;
 		// set buttons
-		button = document.getElementById("title_select_set1");
+		button = document.getElementById("title_select_set0");
 		button.style.width = `${canvas_width / 3}px`;
 		button.style.height = `${canvas_height / 5}px`;
 		button.style.fontSize = `${canvas_height / 25}px`;
 		button.style.marginLeft = `${h / 8}px`;
 		button.style.marginTop = `${canvas_height / 6}px`;
-
+		button.style.borderLeft = `${canvas_width / 150}px white solid`;
+		button.style.borderTopLeftRadius = `${canvas_width / 100}px`;
+		button.style.borderBottomLeftRadius = `${canvas_width / 100}px`;
 	}
 	if (format == "mobile") {
 		// apply canvas dimensions
@@ -218,7 +214,7 @@ function page_title_select() {
 		// render title view
 		canvas_rect([0, 0, canvas_width, canvas_height], "rgb(100, 100, 100)");
 		// draw title
-		let x = canvas_width / 3.5;
+		let x = h;
 		let y = canvas_height / 14;
 		canvas_text("Select set", [x, y], canvas_height / 16, "white", "Poppins", "left");
 		// draw subtitle
@@ -233,17 +229,92 @@ function page_title_select() {
 		button.style.marginTop = `${h / 8}px`;
 		button.style.borderRadius = `${h / 8}px`;
 		// set buttons
-		button = document.getElementById("title_select_set1");
+		button = document.getElementById("title_select_set0");
 		button.style.width = `${canvas_width - (canvas_width / 10)}px`;
 		button.style.height = `${canvas_height / 5}px`;
 		button.style.fontSize = `${canvas_height / 25}px`;
 		button.style.marginLeft = `${canvas_width / 20}px`;
 		button.style.marginTop = `${canvas_height / 6}px`;
+		button.style.borderLeft = `${canvas_width / 50}px white solid`;
+		button.style.borderTopLeftRadius = `${canvas_width / 50}px`;
+		button.style.borderBottomLeftRadius = `${canvas_width / 50}px`;
 	}
-	
+	// update buttons based on state
+	select()
 }
 
 
+function select(set_id=null) {
+	let w = canvas_width / 150
+	if (format == "mobile") {
+		w = canvas_width / 50
+	}
+	// format all buttons
+	if (set_id == null) {
+		// format all buttons
+		for (let i = 0; i < selected.length; i++) {
+			let button = document.getElementById(`title_select_set${selected[i]}`)
+			// format
+			button.style.borderLeft = `${w}px lime solid`;
+			button.style.backgroundColor = "rgb(100, 125, 100)";
+		}
+	// set id
+	} else {
+		const button = document.getElementById(`title_select_set${set_id}`)
+		// remove id if already selected
+		const index = selected.indexOf(set_id);
+		if (index > -1) {
+			// remove id
+			selected.splice(index, 1);
+			// format
+			button.style.borderLeft = `${w}px white solid`;
+			button.style.backgroundColor = "rgb(100, 100, 100)";
+		// add id if it does not exist
+		} else {
+			// append id
+			selected.push(set_id)
+			// format
+			button.style.borderLeft = `${w}px lime solid`;
+			button.style.backgroundColor = "rgb(100, 125, 100)";
+		}
+	}
+	// format continue button
+	if (format == "PC") {
+		let h = canvas_height / 8
+		let button = document.getElementById("title_select_continue");
+		button.style.width = `${canvas_width / 5}px`;
+		button.style.height = `${(h / 4) * 3}px`;
+		button.style.fontSize = `${canvas_height / 25}px`;
+		button.style.marginLeft = `${canvas_width - (canvas_width / 5) - (h / 8)}px`;
+		button.style.marginTop = `${h / 8}px`;
+		button.style.borderRadius = `${canvas_width / 100}px`;
+		if (selected.length > 0) {  // if enabled
+			button.style.color = "white";
+			button.style.backgroundColor = "rgb(100, 150, 150)"
+		} else {  // if disabled
+			button.style.color = "grey";
+			button.style.backgroundColor = "rgb(50, 50, 50)"
+		}
+	} else if (format == "mobile") {
+		// format button
+		let h = canvas_height / 8
+		let button = document.getElementById("title_select_continue");
+		button.style.width = `${canvas_width}px`;
+		button.style.height = `${(h / 4) * 3}px`;
+		button.style.fontSize = `${canvas_height / 25}px`;
+		button.style.marginLeft = `${0}px`;
+		button.style.marginTop = `${canvas_height - ((h / 4) * 3)}px`;
+		button.style.borderRadius = `${canvas_width / 25}px`;
+		if (selected.length > 0) {  // if enabled
+			button.style.color = "white";
+			button.style.backgroundColor = "rgb(100, 150, 150)"
+		} else {  // if disabled
+			button.style.color = "grey";
+			button.style.backgroundColor = "rgb(100, 100, 100)"
+		}
+	}
+	
+}
 
 // start up
 function reset() {

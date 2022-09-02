@@ -47,6 +47,10 @@
 	border: 1px white solid;
 }
 
+.button1:active {
+	border: 1px cyan solid;
+}
+
 .button2 {
 	color: white;
 	border: 1px rgb(50, 50, 50) solid;
@@ -57,6 +61,9 @@
 	border: 1px white solid;
 }
 
+.button2:active {
+	border: 1px red solid;
+}
 
 /* page_title */
 #title_graphic {
@@ -64,5 +71,3 @@
 	animation-name: title_load;
 	animation-duration: 2s;
 }
-
-/* page_title select */
