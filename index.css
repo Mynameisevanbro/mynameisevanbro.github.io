@@ -33,15 +33,6 @@
 	}
 }
 
-@keyframes button1_hover {
-	0% {
-		border: 1px rgb(100, 100, 100) solid;
-	}
-	100% {
-		border: 1px white solid;
-	}
-}
-
 
 /* classes */
 
@@ -54,34 +45,24 @@
 
 .button1:hover {
 	border: 1px white solid;
-	/* animation */
-	animation-name: button1_hover;
-	animation-duration: 1s;
+}
+
+.button2 {
+	color: white;
+	border: 1px rgb(50, 50, 50) solid;
+	background-color: rgb(50, 50, 50);
+}
+
+.button2:hover {
+	border: 1px white solid;
 }
 
 
-/* main */
+/* page_title */
 #title_graphic {
 	/* animation */
 	animation-name: title_load;
 	animation-duration: 2s;
 }
 
-
-#title_start {
-	/* animation */
-	animation-name: slide_right;
-	animation-duration: 1s;
-}
-
-#title_select {
-	/* animation */
-	animation-name: slide_right;
-	animation-duration: 1.5s;
-}
-
-#title_credit {
-	/* animation */
-	animation-name: slide_right;
-	animation-duration: 2s;
-}
+/* page_title select */

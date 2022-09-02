@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head onload="reset()">
 	<script type="text/javascript" src="index.js"></script>
 	<link rel="stylesheet" type="text/css" href="index.css"/>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,13 +10,17 @@
 	<title id="title">Loading - By: Mynameisevanbro</title>
 </head>
 <body>
-	<!-- title -->
-	<canvas id="title_graphic" width="50" height="50"></canvas>
-	<!-- buttons -->
-	<div id="title_buttons">
-		<button class="button1" id="title_start">Start</button>
-		<button class="button1" id="title_select">Select set</button>
-		<button class="button1" id="title_credit">Credits/About</button>
+	<!-- page_title-->
+		<!-- title -->
+		<canvas id="title_graphic" width="50" height="50"></canvas>
+		<!-- buttons -->
+		<div id="title_buttons">
+			<button class="button1" id="title_start" onclick="page = 'title_select';reset()">Start</button>
+			<button class="button1" id="title_setting">Settings</button>
+			<button class="button1" id="title_credit">Credits/About</button>
+	<!-- page_title_select-->
+	<button class="button2" id="title_select_back" onclick="button_back()">&#60;</button>
+	<button class="button1" id="title_select_set1" onclick="">IB Literary Terms</button>
 	</div>
 </body>
 </html>
