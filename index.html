@@ -12,23 +12,46 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" onload="reset()">
 	<!-- sets -->
-	<script type="text/javascript" src="set1.js"></script>
+	<script type="text/javascript" src="set0.js"></script>
 </head>
 <body>
+	<!-- loading -->
+	<div id="loading">
+		<h1>Page is still loading! Please wait!</h1>
+		<p>Program & code by Mynameisevanbro</p>
+	</div>
 	<!-- universal elements -->
 	<canvas id="title_graphic" width="50" height="50"></canvas>
-	<!-- page_title-->
+	<!-- page title-->
 	<div id="page_title">
 		<!-- buttons -->
 		<button class="button1" id="title_start" onclick="page = 'title_select';reset()">Start</button>
 		<button class="button1" id="title_setting" disabled="true">Settings</button>
 		<button class="button1" id="title_credit">Credits/About</button>
 	</div>
-	<!-- page_title_select-->
+	<!-- page title_select-->
 	<div id="page_title_select">
 		<button class="button2" id="title_select_back" onclick="button_back()">&#60;</button>
 		<button class="button1" id="title_select_set0" onclick="select(0)">IB Literary Terms</button>
-		<button class="button2" id="title_select_continue" onclick="">Continue</button>
+		<button class="button2" id="title_select_continue"
+		onclick="page = 'title_select_load';reset()">Continue</button>
+	</div>
+	<!-- page gamemode -->
+	<div id="page_gamemode">
+		<button class="button2" id="gamemode_back" onclick="button_back()">&#60;</button>
+		<button class="button1" id="gamemode_classic"
+		onclick="page = 'gamemode_classic';reset()">Classic</button>
+		<button class="button1" id="gamemode_learn" onclick="">Learn (Coming Soon)</button>
+		<button class="button1" id="gamemode_speed" onclick="">Speed Run (Coming Soon)</button>
+		<button class="button1" id="gamemode_spell" onclick="">Spell (Coming Soon)</button>
+	</div>
+	<!-- page gamemode_classic -->
+	<div id="page_gamemode_classic">
+		<button class="button2" id="gamemode_classic_back" onclick="button_back()">&#60;</button>
+		<span class="instruction" id="gamemode_classic_instructions">
+			<h1>How to Play</h1>
+			<p>Coming Soon!</p>
+		</span>
 	</div>
 </body>
 </html>

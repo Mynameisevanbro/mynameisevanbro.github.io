@@ -1,4 +1,4 @@
-var set1 = `
+var set0 = `
 ALLEGORY (G)<>story or poem in which characters, settings, and events stand for other people or events or for abstract ideas or qualities. Example: Animal Farm, Dante's Inferno, and Lord of the Flies
 ALLUSION (G)<>reference to someone or something that is known from history, literature, religion, politics, sports, science, or another branch of culture. An indirect reference to something (usually from literature, etc.)
 AMBIGUITY (G)<>deliberately suggesting two or more different, and sometimes conflicting, meanings in a work. An event or situation that may be interpreted in more than one way-- this is done on purpose by the author, when it is not done on purpose, it is vagueness, and detracts from the work.

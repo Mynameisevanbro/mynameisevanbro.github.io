@@ -1,5 +1,6 @@
 *{
 	position: absolute;
+	color: white;
 	font-family: 'Poppins';
 	background: rgb(50, 50, 50);
 }
@@ -64,6 +65,13 @@
 .button2:active {
 	border: 1px red solid;
 }
+
+.instruction {
+	width: 500px;
+	height: 500px;
+	background-color: rgb(100, 100, 100);
+}
+
 
 /* page_title */
 #title_graphic {
