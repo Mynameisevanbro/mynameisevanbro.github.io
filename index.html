@@ -2,21 +2,110 @@
 <html>
 <head onload="reset()">
 	<!-- title -->
-	<title id="title">Quartet Game Engine test</title>
+	<title id="title">Loading - By: Mynameisevanbro</title>
 	<!-- JS -->
 	<script type="text/javascript" src="index.js"></script>
-	<script type="text/javascript" src="command.js"></script>
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="index.css"/>
+	<!-- font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" onload="reset()">
+	<!-- sets -->
+	<script type="text/javascript" src="set0.js"></script>
 </head>
 <body>
-	<canvas id="canvas"></canvas>
-	<textarea id="console" disabled="true" placeholder="[Command list empty]"></textarea>
-	<textarea id="console_animation" disabled="true" placeholder="[Animation list empty]"></textarea>
-	<br>
-	<button onclick="load_command_intro()">Load [intro]</button>
-	<button onclick="load_command_test()">Load [test]</button>
-	<button onclick="load_command_lmao()">Load [lmao]</button>
-	<button onclick="load_command_animation_test()">Load [animation test]</button>
+	<!-- loading -->
+	<div id="loading">
+		<h1>Page is still loading! Please wait!</h1>
+		<p>Program & code by Mynameisevanbro</p>
+	</div>
+	<!-- universal elements -->
+	<canvas id="title_graphic" width="50" height="50"></canvas>
+	<!-- page title-->
+	<div id="page_title">
+		<!-- buttons -->
+		<button class="button1" id="title_start" onclick="{
+			page = 'title_select';
+			setTimeout(()=>reset(), 250);
+			// animation > title_unload
+			document.getElementById('title_graphic').style.animation = 'title_unload 0.25s linear 1';
+			setTimeout(()=>document.getElementById('title_graphic').style.animation = '', 250);
+			}">Start</button>
+		<button class="button1" id="title_setting" disabled="true">Settings</button>
+		<button class="button1" id="title_credit">Credits/About</button>
+	</div>
+	<!-- page title_select-->
+	<div id="page_title_select">
+		<button class="button2" id="title_select_back" onclick="button_back()">&#60;</button>
+		<button class="button1" id="title_select_set0" onclick="select(0)">IB Literary Terms</button>
+		<button class="button2" id="title_select_continue"
+		onclick="{
+			page = 'title_select_load';
+			setTimeout(()=>reset(), 100);
+			// animations
+			if (selected.length > 0) {
+				document.getElementById('title_select_continue').style.animation = 'button_continue_unload 0.1s linear 1';
+			} else {
+				document.getElementById('title_select_continue').style.animation = 'button_continue_error 0.1s linear 1';
+			}
+			setTimeout(()=>document.getElementById('title_select_continue').style.animation = '', 100);
+			
+		}">Continue</button>
+	</div>
+	<!-- page gamemode -->
+	<div id="page_gamemode">
+		<button class="button2" id="gamemode_back" onclick="button_back()">&#60;</button>
+		<button class="button1" id="gamemode_classic"
+		onclick="page = 'gamemode_classic';reset();reset()">Classic</button>
+		<button class="button1" id="gamemode_learn" onclick="">Learn (Coming Soon)</button>
+		<button class="button1" id="gamemode_speed" onclick="">Speed Run (Coming Soon)</button>
+		<button class="button1" id="gamemode_spell" onclick="">Spell (Coming Soon)</button>
+	</div>
+	<!-- page gamemode_classic -->
+	<div id="page_gamemode_classic">
+		<button class="button2" id="gamemode_classic_back" onclick="button_back()">&#60;</button>
+		<span class="instruction" id="gamemode_classic_instructions">
+			<h1 id="ins0">How to Play</h1>
+			<textarea id="ins1" disabled="true">[Description Here]</textarea>
+			<button class="button2" id="gamemode_classic_play"
+			onclick="page = 'gamemode_classic_play';reset()">Play</button>
+		</span>
+	</div>
+	<!-- page gamemode_classic_play -->
+	<div id="page_gamemode_classic_play">
+		<button class="button2" id="gamemode_classic_play_back" onclick="button_back()">&#60;</button>
+		<button class="card" id="card" onclick="{
+			if (card['side'] == 0) {
+				card['side'] = 1;
+			} else {
+				card['side'] = 0;
+			};
+			page_gamemode_classic_play();
+			// animation > flip
+			document.getElementById('card').style.animation = 'flip 0.25s ease-in-out 1';
+			setTimeout(()=>document.getElementById('card').style.animation = '', 250);
+		}">[Card Here]</button>
+		<button class="button2" id="card_back" onclick="{
+			// animation > title_unload
+			if (card['id'] > 0) {
+				document.getElementById('card').style.animation = 'slide_right 0.25s linear 1';
+				setTimeout(()=>document.getElementById('card').style.animation = '', 250);
+			}
+			// switch card
+			card['id'] -= 1;card['side'] = 0;
+			setTimeout(()=>page_gamemode_classic_play(), 250);
+		}">&#60;</button>
+		<button class="button2" id="card_next" onclick="{
+			// animation > title_unload
+			if (card['id'] < card['content'].length - 1) {
+				document.getElementById('card').style.animation = 'slide_left 0.25s linear 1';
+				setTimeout(()=>document.getElementById('card').style.animation = '', 250);
+			}
+			// switch card
+			card['id'] += 1;card['side'] = 0;
+			setTimeout(()=>page_gamemode_classic_play(), 250);
+		};page_gamemode_classic_play()">&#62;</button>
+	</div>
 </body>
 </html>
