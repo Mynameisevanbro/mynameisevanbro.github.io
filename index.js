@@ -1,1 +1,779 @@
-const _0x32d679=_0x14d1;(function(_0x2e2853,_0x39eca7){const _0x48b0eb=_0x14d1,_0x38436e=_0x2e2853();while(!![]){try{const _0xd38476=parseInt(_0x48b0eb(0x184))/0x1*(-parseInt(_0x48b0eb(0x15f))/0x2)+-parseInt(_0x48b0eb(0x181))/0x3*(parseInt(_0x48b0eb(0x149))/0x4)+parseInt(_0x48b0eb(0x11c))/0x5*(parseInt(_0x48b0eb(0x17c))/0x6)+-parseInt(_0x48b0eb(0x13b))/0x7*(parseInt(_0x48b0eb(0x141))/0x8)+parseInt(_0x48b0eb(0x169))/0x9+-parseInt(_0x48b0eb(0x17f))/0xa+parseInt(_0x48b0eb(0x132))/0xb;if(_0xd38476===_0x39eca7)break;else _0x38436e['push'](_0x38436e['shift']());}catch(_0x2525df){_0x38436e['push'](_0x38436e['shift']());}}}(_0x5571,0xd4944));var format=_0x32d679(0x17a),canvas_width=0x32,canvas_height=0x32,page='title',selected=[],card={'content':[],'id':0x0,'side':0x0};function canvas_text(_0x22ca49,_0x480139,_0x4dfa34,_0xb4deb0,_0x598b9b,_0x141d24=_0x32d679(0x16f)){const _0x9f83b6=_0x32d679,_0x5a4615=document['getElementById']('title_graphic'),_0x12ca1d=_0x5a4615[_0x9f83b6(0x188)]('2d');let _0x33b0de=_0x4dfa34;_0x12ca1d[_0x9f83b6(0x15e)]=_0x33b0de+'px\x20'+_0x598b9b,_0x12ca1d['textAlign']=_0x141d24,_0x12ca1d['fillStyle']=_0xb4deb0,_0x12ca1d['fillText'](_0x22ca49,_0x480139[0x0],_0x480139[0x1]);}function canvas_rect(_0x37faff,_0x35f919){const _0x3f6154=_0x32d679,_0xfe4567=document[_0x3f6154(0x16a)]('title_graphic'),_0x557c23=_0xfe4567[_0x3f6154(0x188)]('2d');_0x557c23['fillStyle']=_0x35f919,_0x557c23['fillRect'](_0x37faff[0x0],_0x37faff[0x1],_0x37faff[0x2],_0x37faff[0x3]);}function hide_all(){const _0x4f9fcf=_0x32d679;document[_0x4f9fcf(0x16a)]('loading')[_0x4f9fcf(0x121)][_0x4f9fcf(0x15a)]=_0x4f9fcf(0x178),document[_0x4f9fcf(0x16a)](_0x4f9fcf(0x150))['style'][_0x4f9fcf(0x15a)]=_0x4f9fcf(0x178),document[_0x4f9fcf(0x16a)](_0x4f9fcf(0x182))[_0x4f9fcf(0x121)]['display']='none',document[_0x4f9fcf(0x16a)](_0x4f9fcf(0x148))[_0x4f9fcf(0x121)][_0x4f9fcf(0x15a)]=_0x4f9fcf(0x178),document[_0x4f9fcf(0x16a)](_0x4f9fcf(0x140))[_0x4f9fcf(0x121)][_0x4f9fcf(0x15a)]=_0x4f9fcf(0x178),document[_0x4f9fcf(0x16a)](_0x4f9fcf(0x130))[_0x4f9fcf(0x121)][_0x4f9fcf(0x15a)]='none';}function button_back(){const _0x42fc9f=_0x32d679;if(page==_0x42fc9f(0x135))page=_0x42fc9f(0x16b);else{if(page==_0x42fc9f(0x179))page=_0x42fc9f(0x135);else{if(page=='gamemode_classic')page='gamemode';else page==_0x42fc9f(0x175)&&(page=_0x42fc9f(0x14d));}}reset();}function page_title(){const _0x5b347a=_0x32d679,_0x1511e1=document[_0x5b347a(0x16a)]('title_graphic'),_0x1f7c42=_0x1511e1[_0x5b347a(0x188)]('2d');document['getElementById'](_0x5b347a(0x150))['style']['display']=_0x5b347a(0x170);if(format=='PC'){_0x1511e1[_0x5b347a(0x12e)]=canvas_width-canvas_width/0x14*0x2,_0x1511e1[_0x5b347a(0x15b)]=canvas_height/0x8,_0x1511e1[_0x5b347a(0x121)][_0x5b347a(0x173)]=canvas_width/0x14+'px',_0x1511e1['style'][_0x5b347a(0x17e)]=canvas_height/0x28+'px';let _0x536b03=canvas_width-canvas_width/0x14*0x3,_0x56b186=canvas_height/0x8;canvas_rect([0x0,0x0,_0x536b03,_0x56b186],'rgb(100,\x20100,\x20100)'),_0x1f7c42[_0x5b347a(0x117)](),_0x1f7c42['moveTo'](_0x536b03,0x0),_0x1f7c42[_0x5b347a(0x12f)](_0x536b03+canvas_width/0x14,0x0),_0x1f7c42[_0x5b347a(0x12f)](_0x536b03,_0x56b186),_0x1f7c42[_0x5b347a(0x12f)](_0x536b03-0x1,0x0),_0x1f7c42['closePath'](),_0x1f7c42[_0x5b347a(0x12d)]();let _0xb1dd6b=canvas_width/0x32,_0xc7217f=canvas_height/0xe;canvas_text(_0x5b347a(0x16e),[_0xb1dd6b,_0xc7217f],canvas_height/0xc,'white','Poppins',_0x5b347a(0x177)),_0xc7217f=canvas_height/0x9,canvas_text(_0x5b347a(0x11b),[_0xb1dd6b,_0xc7217f],canvas_height/0x28,_0x5b347a(0x125),_0x5b347a(0x11d),_0x5b347a(0x177));let _0x2a3362=canvas_height/0x1e+'px';_0xb1dd6b=canvas_width/0x14+'px',_0x536b03=canvas_width/0x3;_0x536b03>0x190&&(_0x536b03=0x190);_0x536b03=_0x536b03+'px',_0x56b186=canvas_height/0xa+'px';let _0x11ff1c=canvas_height/2.5-canvas_height/0x4,_0xcdda90=document[_0x5b347a(0x16a)](_0x5b347a(0x11e));_0xcdda90[_0x5b347a(0x121)][_0x5b347a(0x12e)]=_0x536b03,_0xcdda90[_0x5b347a(0x121)][_0x5b347a(0x15b)]=_0x56b186,_0xcdda90[_0x5b347a(0x121)][_0x5b347a(0x173)]=_0xb1dd6b,_0xcdda90[_0x5b347a(0x121)][_0x5b347a(0x166)]=_0x2a3362,_0xcdda90[_0x5b347a(0x121)][_0x5b347a(0x17e)]=canvas_height/0x4+'px',_0xcdda90['style']['borderRadius']=_0x5b347a(0x172),_0xcdda90=document[_0x5b347a(0x16a)](_0x5b347a(0x157)),_0xcdda90[_0x5b347a(0x121)][_0x5b347a(0x12e)]=_0x536b03,_0xcdda90[_0x5b347a(0x121)]['height']=_0x56b186,_0xcdda90[_0x5b347a(0x121)][_0x5b347a(0x173)]=_0xb1dd6b,_0xcdda90[_0x5b347a(0x121)][_0x5b347a(0x166)]=_0x2a3362,_0xcdda90[_0x5b347a(0x121)][_0x5b347a(0x17e)]=canvas_height/2.5+'px',_0xcdda90[_0x5b347a(0x121)]['borderRadius']='0px',_0xcdda90=document[_0x5b347a(0x16a)](_0x5b347a(0x154)),_0xcdda90[_0x5b347a(0x121)][_0x5b347a(0x12e)]=_0x536b03,_0xcdda90['style']['height']=_0x56b186,_0xcdda90[_0x5b347a(0x121)][_0x5b347a(0x173)]=_0xb1dd6b,_0xcdda90[_0x5b347a(0x121)][_0x5b347a(0x166)]=_0x2a3362,_0xcdda90[_0x5b347a(0x121)]['marginTop']=canvas_height/2.5+_0x11ff1c+'px',_0xcdda90[_0x5b347a(0x121)][_0x5b347a(0x12a)]=_0x5b347a(0x172);}if(format==_0x5b347a(0x17a)){_0x1511e1['width']=canvas_width,_0x1511e1[_0x5b347a(0x15b)]=canvas_height/0x5,_0x1511e1[_0x5b347a(0x121)][_0x5b347a(0x173)]='0px',_0x1511e1[_0x5b347a(0x121)][_0x5b347a(0x17e)]=_0x5b347a(0x172);let _0x5697a2=canvas_height/0x5;canvas_rect([0x0,0x0,canvas_width,_0x5697a2],_0x5b347a(0x134));let _0x37b96f=canvas_width/0x2,_0xa64418=canvas_height/0x8;canvas_text(_0x5b347a(0x16e),[_0x37b96f,_0xa64418],canvas_height/0xa,_0x5b347a(0x125),_0x5b347a(0x11d)),_0xa64418=canvas_height/0x6,canvas_text('Online\x20Edition\x20-\x20Mobile\x20webpage\x20view',[_0x37b96f,_0xa64418],canvas_height/0x3c,_0x5b347a(0x125),'Poppins'),_0xa64418=canvas_height-canvas_height/0x46,canvas_text(_0x5b347a(0x163),[_0x37b96f,_0xa64418],canvas_height/0x32,_0x5b347a(0x125),_0x5b347a(0x11d));let _0x47bfef=canvas_height/0x1e+'px';_0x37b96f=canvas_width/0x14+'px',w=canvas_width-canvas_width/0xa+'px',_0x5697a2=canvas_height/0x5+'px';let _0x2ec96a=canvas_height/0x2-canvas_height/0x4,_0x45ba65=document[_0x5b347a(0x16a)]('title_start');_0x45ba65[_0x5b347a(0x121)][_0x5b347a(0x12e)]=w,_0x45ba65[_0x5b347a(0x121)]['height']=_0x5697a2,_0x45ba65[_0x5b347a(0x121)][_0x5b347a(0x173)]=_0x37b96f,_0x45ba65[_0x5b347a(0x121)][_0x5b347a(0x166)]=_0x47bfef,_0x45ba65[_0x5b347a(0x121)][_0x5b347a(0x17e)]=canvas_height/0x4+'px',_0x45ba65['style'][_0x5b347a(0x12a)]=canvas_height/0x4b+'px',_0x45ba65=document[_0x5b347a(0x16a)]('title_setting'),_0x45ba65[_0x5b347a(0x121)][_0x5b347a(0x12e)]=w,_0x45ba65['style'][_0x5b347a(0x15b)]=_0x5697a2,_0x45ba65[_0x5b347a(0x121)]['marginLeft']=_0x37b96f,_0x45ba65['style'][_0x5b347a(0x166)]=_0x47bfef,_0x45ba65['style']['marginTop']=canvas_height/0x2+'px',_0x45ba65[_0x5b347a(0x121)]['borderRadius']=canvas_height/0x4b+'px',_0x45ba65=document[_0x5b347a(0x16a)](_0x5b347a(0x154)),_0x45ba65[_0x5b347a(0x121)][_0x5b347a(0x12e)]=w,_0x45ba65[_0x5b347a(0x121)][_0x5b347a(0x15b)]=_0x5697a2,_0x45ba65['style'][_0x5b347a(0x173)]=_0x37b96f,_0x45ba65[_0x5b347a(0x121)]['fontSize']=_0x47bfef,_0x45ba65['style'][_0x5b347a(0x17e)]=canvas_height/0x2+_0x2ec96a+'px',_0x45ba65[_0x5b347a(0x121)][_0x5b347a(0x12a)]=canvas_height/0x4b+'px';}}function page_title_select(){const _0x1e39f8=_0x32d679,_0x568362=document[_0x1e39f8(0x16a)](_0x1e39f8(0x12b)),_0x1555fe=_0x568362['getContext']('2d');document[_0x1e39f8(0x16a)]('page_title_select')[_0x1e39f8(0x121)][_0x1e39f8(0x15a)]=_0x1e39f8(0x170);if(format=='PC'){let _0x3936c0=canvas_height/0x8;_0x568362['width']=canvas_width,_0x568362[_0x1e39f8(0x15b)]=_0x3936c0,_0x568362[_0x1e39f8(0x121)]['marginLeft']=_0x1e39f8(0x172),_0x568362[_0x1e39f8(0x121)][_0x1e39f8(0x17e)]=_0x1e39f8(0x172),canvas_rect([0x0,0x0,canvas_width,_0x3936c0],_0x1e39f8(0x134));let _0x33ef86=_0x3936c0,_0x4ad8f3=canvas_height/0xe;canvas_text(_0x1e39f8(0x151),[_0x33ef86,_0x4ad8f3],canvas_height/0x10,_0x1e39f8(0x125),'Poppins','left'),_0x4ad8f3=canvas_height/0x9,canvas_text(_0x1e39f8(0x158),[_0x33ef86,_0x4ad8f3],canvas_height/0x28,_0x1e39f8(0x125),_0x1e39f8(0x11d),_0x1e39f8(0x177));let _0x1a126e=document['getElementById'](_0x1e39f8(0x187));_0x1a126e['style'][_0x1e39f8(0x12e)]=_0x3936c0/0x4*0x3+'px',_0x1a126e[_0x1e39f8(0x121)][_0x1e39f8(0x15b)]=_0x3936c0/0x4*0x3+'px',_0x1a126e['style'][_0x1e39f8(0x166)]=_0x3936c0/0x2+'px',_0x1a126e[_0x1e39f8(0x121)][_0x1e39f8(0x173)]=_0x3936c0/0x8+'px',_0x1a126e['style'][_0x1e39f8(0x17e)]=_0x3936c0/0x8+'px',_0x1a126e[_0x1e39f8(0x121)][_0x1e39f8(0x12a)]=_0x3936c0/0x8+'px',_0x1a126e=document[_0x1e39f8(0x16a)](_0x1e39f8(0x14a)),_0x1a126e['style'][_0x1e39f8(0x12e)]=canvas_width/0x3+'px',_0x1a126e[_0x1e39f8(0x121)]['height']=canvas_height/0x5+'px',_0x1a126e[_0x1e39f8(0x121)][_0x1e39f8(0x166)]=canvas_height/0x19+'px',_0x1a126e['style'][_0x1e39f8(0x173)]=_0x3936c0/0x8+'px',_0x1a126e[_0x1e39f8(0x121)]['marginTop']=canvas_height/0x6+'px',_0x1a126e[_0x1e39f8(0x121)]['borderLeft']=canvas_width/0x96+_0x1e39f8(0x147),_0x1a126e['style'][_0x1e39f8(0x155)]=_0x3936c0/0x8+'px',_0x1a126e[_0x1e39f8(0x121)]['borderBottomLeftRadius']=_0x3936c0/0x8+'px';}if(format==_0x1e39f8(0x17a)){let _0x173449=canvas_height/0x8;_0x568362['width']=canvas_width,_0x568362['height']=_0x173449,_0x568362[_0x1e39f8(0x121)][_0x1e39f8(0x173)]=_0x1e39f8(0x172),_0x568362[_0x1e39f8(0x121)][_0x1e39f8(0x17e)]=_0x1e39f8(0x172),canvas_rect([0x0,0x0,canvas_width,_0x173449],_0x1e39f8(0x134));let _0x249047=_0x173449,_0x1c76a5=canvas_height/0xe;canvas_text(_0x1e39f8(0x151),[_0x249047,_0x1c76a5],canvas_height/0x10,_0x1e39f8(0x125),_0x1e39f8(0x11d),'left'),_0x1c76a5=canvas_height/0x9,canvas_text(_0x1e39f8(0x158),[_0x249047,_0x1c76a5],canvas_height/0x28,'white','Poppins','left');let _0x2dc163=document['getElementById']('title_select_back');_0x2dc163[_0x1e39f8(0x121)]['width']=_0x173449/0x4*0x3+'px',_0x2dc163['style'][_0x1e39f8(0x15b)]=_0x173449/0x4*0x3+'px',_0x2dc163[_0x1e39f8(0x121)]['fontSize']=_0x173449/0x2+'px',_0x2dc163[_0x1e39f8(0x121)][_0x1e39f8(0x173)]=_0x173449/0x8+'px',_0x2dc163[_0x1e39f8(0x121)][_0x1e39f8(0x17e)]=_0x173449/0x8+'px',_0x2dc163[_0x1e39f8(0x121)][_0x1e39f8(0x12a)]=_0x173449/0x8+'px',_0x2dc163=document[_0x1e39f8(0x16a)](_0x1e39f8(0x14a)),_0x2dc163[_0x1e39f8(0x121)]['width']=canvas_width-canvas_width/0xa+'px',_0x2dc163[_0x1e39f8(0x121)][_0x1e39f8(0x15b)]=canvas_height/0x5+'px',_0x2dc163[_0x1e39f8(0x121)][_0x1e39f8(0x166)]=canvas_height/0x19+'px',_0x2dc163[_0x1e39f8(0x121)][_0x1e39f8(0x173)]=canvas_width/0x14+'px',_0x2dc163['style'][_0x1e39f8(0x17e)]=canvas_height/0x6+'px',_0x2dc163[_0x1e39f8(0x121)][_0x1e39f8(0x153)]=canvas_height/0x32+_0x1e39f8(0x147),_0x2dc163[_0x1e39f8(0x121)][_0x1e39f8(0x155)]=canvas_width/0x32+'px',_0x2dc163[_0x1e39f8(0x121)]['borderBottomLeftRadius']=canvas_width/0x32+'px';}select();}function _0x14d1(_0x148f58,_0x32d514){const _0x5571a2=_0x5571();return _0x14d1=function(_0x14d14e,_0x17be15){_0x14d14e=_0x14d14e-0x117;let _0x293974=_0x5571a2[_0x14d14e];return _0x293974;},_0x14d1(_0x148f58,_0x32d514);}function page_title_select_load(){const _0x53dba3=_0x32d679,_0x335eb8=document[_0x53dba3(0x16a)](_0x53dba3(0x12b)),_0x27495c=_0x335eb8[_0x53dba3(0x188)]('2d');let _0x5e9863=canvas_height/0x8;_0x335eb8['width']=canvas_width,_0x335eb8[_0x53dba3(0x15b)]=_0x5e9863,_0x335eb8[_0x53dba3(0x121)]['marginLeft']=_0x53dba3(0x172),_0x335eb8[_0x53dba3(0x121)][_0x53dba3(0x17e)]='0px',canvas_rect([0x0,0x0,canvas_width,_0x5e9863],'rgb(100,\x20100,\x20100)');if(format=='PC'){let _0x5b3570=_0x5e9863,_0x47c58a=canvas_height/0xe;canvas_text(_0x53dba3(0x11a),[_0x5b3570,_0x47c58a],canvas_height/0x10,_0x53dba3(0x125),_0x53dba3(0x11d),_0x53dba3(0x177)),_0x47c58a=canvas_height/0x9,canvas_text('Please\x20wait...',[_0x5b3570,_0x47c58a],canvas_height/0x28,_0x53dba3(0x125),_0x53dba3(0x11d),_0x53dba3(0x177));}if(format==_0x53dba3(0x17a)){let _0x7d8750=_0x5e9863/0xa,_0x223b6d=canvas_height/0xe;canvas_text(_0x53dba3(0x168),[_0x7d8750,_0x223b6d],canvas_height/0x10,_0x53dba3(0x125),_0x53dba3(0x11d),_0x53dba3(0x177)),_0x223b6d=canvas_height/0x9,canvas_text('Please\x20wait...',[_0x7d8750,_0x223b6d],canvas_height/0x28,_0x53dba3(0x125),'Poppins',_0x53dba3(0x177));}card[_0x53dba3(0x138)]=[];for(let _0x58dd95=0x0;_0x58dd95<selected[_0x53dba3(0x162)];_0x58dd95++){let _0x2ddf3d=window['set'+selected[_0x58dd95]],_0x20a99b=_0x2ddf3d[_0x53dba3(0x15d)]('\x0a');for(let _0x14aeaa=0x0;_0x14aeaa<_0x20a99b[_0x53dba3(0x162)];_0x14aeaa++){let _0x25f00e=_0x20a99b[_0x14aeaa][_0x53dba3(0x15d)]('<>'),_0x1c2065={'term':_0x25f00e[0x0],'definition':_0x25f00e[0x1]};_0x25f00e[0x1]!=undefined&&card[_0x53dba3(0x138)]['push'](_0x1c2065);}}selected['length']==0x0?page=_0x53dba3(0x135):page=_0x53dba3(0x179),reset();}function page_gamemode(){const _0x127489=_0x32d679,_0x5c16a4=document['getElementById'](_0x127489(0x12b)),_0x1d4daa=_0x5c16a4[_0x127489(0x188)]('2d');document[_0x127489(0x16a)](_0x127489(0x148))[_0x127489(0x121)][_0x127489(0x15a)]='initial';if(format=='PC'){let _0x182f6e=canvas_height/0x8;_0x5c16a4['width']=canvas_width,_0x5c16a4['height']=_0x182f6e,_0x5c16a4[_0x127489(0x121)][_0x127489(0x173)]='0px',_0x5c16a4['style'][_0x127489(0x17e)]=_0x127489(0x172),canvas_rect([0x0,0x0,canvas_width,_0x182f6e],_0x127489(0x134));let _0x2eeaef=_0x182f6e,_0x890bb=canvas_height/0xe;canvas_text('Choose\x20Game\x20mode',[_0x2eeaef,_0x890bb],canvas_height/0x10,'white',_0x127489(0x11d),_0x127489(0x177)),_0x890bb=canvas_height/0x9,canvas_text(_0x127489(0x144),[_0x2eeaef,_0x890bb],canvas_height/0x28,_0x127489(0x125),_0x127489(0x11d),_0x127489(0x177));let _0x4b381c=document[_0x127489(0x16a)](_0x127489(0x164));_0x4b381c[_0x127489(0x121)][_0x127489(0x12e)]=_0x182f6e/0x4*0x3+'px',_0x4b381c[_0x127489(0x121)][_0x127489(0x15b)]=_0x182f6e/0x4*0x3+'px',_0x4b381c[_0x127489(0x121)][_0x127489(0x166)]=_0x182f6e/0x2+'px',_0x4b381c[_0x127489(0x121)][_0x127489(0x173)]=_0x182f6e/0x8+'px',_0x4b381c['style'][_0x127489(0x17e)]=_0x182f6e/0x8+'px',_0x4b381c[_0x127489(0x121)]['borderRadius']=_0x182f6e/0x8+'px';let _0x4314e6=[_0x127489(0x12c),'learn',_0x127489(0x16c),'spell'];w=canvas_width/0x3;w>0x12c&&(w=0x12c);;_0x182f6e=canvas_height/0x5;let _0x5554d1=_0x182f6e/0x8,_0x5d0ff8=w*1.1,_0x180a8e=0x0,_0x506396=canvas_height/0x6,_0x3d7b32=_0x182f6e*1.2,_0x194a58=0x0;for(let _0x5d23fc=0x0;_0x5d23fc<_0x4314e6['length'];_0x5d23fc++){_0x2eeaef=_0x5554d1+_0x5d0ff8*_0x180a8e,_0x890bb=_0x506396+_0x3d7b32*_0x194a58,_0x2eeaef+w>canvas_width&&(_0x180a8e=0x0,_0x194a58++,_0x2eeaef=_0x5554d1+_0x5d0ff8*_0x180a8e,_0x890bb=_0x506396+_0x3d7b32*_0x194a58),_0x4b381c=document[_0x127489(0x16a)](_0x127489(0x183)+_0x4314e6[_0x5d23fc]),_0x4b381c['style']['width']=w+'px',_0x4b381c[_0x127489(0x121)][_0x127489(0x15b)]=_0x182f6e+'px',_0x4b381c[_0x127489(0x121)][_0x127489(0x166)]=canvas_height/0x19+'px',_0x4b381c['style']['marginLeft']=_0x2eeaef+'px',_0x4b381c['style']['marginTop']=_0x890bb+'px',_0x4b381c[_0x127489(0x121)][_0x127489(0x17d)]=canvas_width/0x96+_0x127489(0x15c),_0x180a8e++;}}if(format==_0x127489(0x17a)){let _0x4aa1a5=canvas_height/0x8;_0x5c16a4['width']=canvas_width,_0x5c16a4['height']=_0x4aa1a5,_0x5c16a4[_0x127489(0x121)][_0x127489(0x173)]='0px',_0x5c16a4[_0x127489(0x121)]['marginTop']=_0x127489(0x172),canvas_rect([0x0,0x0,canvas_width,_0x4aa1a5],'rgb(100,\x20100,\x20100)');let _0x1917dd=_0x4aa1a5,_0x221c5c=canvas_height/0xe;canvas_text('Mode',[_0x1917dd,_0x221c5c],canvas_height/0x10,_0x127489(0x125),_0x127489(0x11d),_0x127489(0x177)),_0x221c5c=canvas_height/0x9,canvas_text('Choose\x20Game\x20Mode',[_0x1917dd,_0x221c5c],canvas_height/0x28,'white',_0x127489(0x11d),'left');let _0x301b24=document[_0x127489(0x16a)](_0x127489(0x164));_0x301b24[_0x127489(0x121)][_0x127489(0x12e)]=_0x4aa1a5/0x4*0x3+'px',_0x301b24[_0x127489(0x121)][_0x127489(0x15b)]=_0x4aa1a5/0x4*0x3+'px',_0x301b24[_0x127489(0x121)]['fontSize']=_0x4aa1a5/0x2+'px',_0x301b24['style'][_0x127489(0x173)]=_0x4aa1a5/0x8+'px',_0x301b24[_0x127489(0x121)][_0x127489(0x17e)]=_0x4aa1a5/0x8+'px',_0x301b24[_0x127489(0x121)][_0x127489(0x12a)]=_0x4aa1a5/0x8+'px';let _0x5d232d=['classic',_0x127489(0x11f),'speed',_0x127489(0x139)];_0x4aa1a5=canvas_height/0x5;let _0x5b6c46=canvas_height/0x6,_0x5993ae=_0x4aa1a5*1.2;for(let _0x2d1085=0x0;_0x2d1085<_0x5d232d[_0x127489(0x162)];_0x2d1085++){_0x221c5c=_0x5b6c46+_0x5993ae*_0x2d1085,_0x301b24=document[_0x127489(0x16a)](_0x127489(0x183)+_0x5d232d[_0x2d1085]),_0x301b24[_0x127489(0x121)]['width']=canvas_width-canvas_width/0xa+'px',_0x301b24[_0x127489(0x121)][_0x127489(0x15b)]=_0x4aa1a5+'px',_0x301b24['style'][_0x127489(0x166)]=canvas_height/0x19+'px',_0x301b24['style'][_0x127489(0x173)]=canvas_width/0x14+'px',_0x301b24['style']['marginTop']=_0x221c5c+'px',_0x301b24[_0x127489(0x121)]['borderTop']=canvas_width/0x32+_0x127489(0x15c);}}select();}function page_gamemode_classic(){const _0x5c3485=_0x32d679,_0x49ac44=document[_0x5c3485(0x16a)](_0x5c3485(0x12b)),_0xa37f8f=_0x49ac44[_0x5c3485(0x188)]('2d');document[_0x5c3485(0x16a)](_0x5c3485(0x140))[_0x5c3485(0x121)][_0x5c3485(0x15a)]='initial';if(format=='PC'){let _0x5f20a2=canvas_height/0x8;_0x49ac44[_0x5c3485(0x12e)]=canvas_width,_0x49ac44['height']=_0x5f20a2,_0x49ac44[_0x5c3485(0x121)][_0x5c3485(0x173)]=_0x5c3485(0x172),_0x49ac44['style'][_0x5c3485(0x17e)]=_0x5c3485(0x172),canvas_rect([0x0,0x0,canvas_width,_0x5f20a2],_0x5c3485(0x134));let _0xc94cfe=_0x5f20a2,_0x4717d1=canvas_height/0xe;canvas_text('How\x20to\x20Play',[_0xc94cfe,_0x4717d1],canvas_height/0x10,_0x5c3485(0x125),_0x5c3485(0x11d),_0x5c3485(0x177)),_0x4717d1=canvas_height/0x9,canvas_text(_0x5c3485(0x123),[_0xc94cfe,_0x4717d1],canvas_height/0x28,_0x5c3485(0x125),_0x5c3485(0x11d),_0x5c3485(0x177));let _0xf27724=document[_0x5c3485(0x16a)](_0x5c3485(0x14e));_0xf27724[_0x5c3485(0x121)][_0x5c3485(0x12e)]=_0x5f20a2/0x4*0x3+'px',_0xf27724[_0x5c3485(0x121)][_0x5c3485(0x15b)]=_0x5f20a2/0x4*0x3+'px',_0xf27724['style'][_0x5c3485(0x166)]=_0x5f20a2/0x2+'px',_0xf27724[_0x5c3485(0x121)][_0x5c3485(0x173)]=_0x5f20a2/0x8+'px',_0xf27724[_0x5c3485(0x121)]['marginTop']=_0x5f20a2/0x8+'px',_0xf27724['style']['borderRadius']=_0x5f20a2/0x8+'px';let _0x32897b=document[_0x5c3485(0x16a)](_0x5c3485(0x124));_0x32897b[_0x5c3485(0x121)][_0x5c3485(0x12e)]=canvas_width-canvas_width/0x14+'px',_0x32897b[_0x5c3485(0x121)]['height']=canvas_height/1.2+'px',_0x32897b[_0x5c3485(0x121)]['marginLeft']=canvas_width/0x28+'px',_0x32897b['style'][_0x5c3485(0x17e)]=canvas_height/0x7+'px',_0x32897b=document[_0x5c3485(0x16a)](_0x5c3485(0x176));let _0x5e1177=_0x32897b['clientWidth'];_0x32897b['style']['backgroundColor']=_0x5c3485(0x134),_0x32897b[_0x5c3485(0x121)][_0x5c3485(0x166)]=_0x5f20a2/2.5+'px',_0x32897b[_0x5c3485(0x121)][_0x5c3485(0x173)]=canvas_width/0x2-_0x5e1177/0x2+'px',_0x32897b[_0x5c3485(0x121)][_0x5c3485(0x17e)]=canvas_height/0x1e+'px',_0x32897b=document[_0x5c3485(0x16a)](_0x5c3485(0x165)),_0x32897b[_0x5c3485(0x121)]['backgroundColor']=_0x5c3485(0x134),_0x32897b[_0x5c3485(0x121)][_0x5c3485(0x12e)]=canvas_width-canvas_width/0xa+'px',_0x32897b[_0x5c3485(0x121)]['fontSize']=_0x5f20a2/0x5+'px',_0x32897b['style'][_0x5c3485(0x15b)]=canvas_height/0x2+'px',_0x32897b[_0x5c3485(0x121)]['marginLeft']=canvas_width/0x64+'px',_0x32897b[_0x5c3485(0x121)][_0x5c3485(0x17e)]=canvas_height/0x8+'px';let _0x4fa3b4=gamemode_classic_instructions[_0x5c3485(0x137)],_0x4b2d03=gamemode_classic_instructions[_0x5c3485(0x14f)];_0xf27724=document[_0x5c3485(0x16a)](_0x5c3485(0x175)),_0xf27724[_0x5c3485(0x121)][_0x5c3485(0x12e)]=_0x4fa3b4/0x3+'px',_0xf27724[_0x5c3485(0x121)][_0x5c3485(0x15b)]=_0x4b2d03/0xa+'px',_0xf27724[_0x5c3485(0x121)][_0x5c3485(0x166)]=_0x5f20a2/0x3+'px',_0xf27724[_0x5c3485(0x121)][_0x5c3485(0x173)]=_0x4fa3b4/0x2-_0x4fa3b4/0x6+'px',_0xf27724[_0x5c3485(0x121)][_0x5c3485(0x17e)]=_0x4b2d03-_0x4b2d03/0x7+'px',_0xf27724['style'][_0x5c3485(0x12a)]=_0x5f20a2/0x8+'px';}if(format==_0x5c3485(0x17a)){let _0x462372=canvas_height/0x8;_0x49ac44[_0x5c3485(0x12e)]=canvas_width,_0x49ac44[_0x5c3485(0x15b)]=_0x462372,_0x49ac44['style'][_0x5c3485(0x173)]=_0x5c3485(0x172),_0x49ac44['style'][_0x5c3485(0x17e)]='0px',canvas_rect([0x0,0x0,canvas_width,_0x462372],'rgb(100,\x20100,\x20100)');let _0x2e8269=_0x462372,_0x26cd7f=canvas_height/0xe;canvas_text(_0x5c3485(0x14b),[_0x2e8269,_0x26cd7f],canvas_height/0x10,_0x5c3485(0x125),'Poppins','left'),_0x26cd7f=canvas_height/0x9,canvas_text(_0x5c3485(0x174),[_0x2e8269,_0x26cd7f],canvas_height/0x28,'white',_0x5c3485(0x11d),_0x5c3485(0x177));let _0x21d3dc=document[_0x5c3485(0x16a)](_0x5c3485(0x14e));_0x21d3dc[_0x5c3485(0x121)][_0x5c3485(0x12e)]=_0x462372/0x4*0x3+'px',_0x21d3dc['style']['height']=_0x462372/0x4*0x3+'px',_0x21d3dc[_0x5c3485(0x121)][_0x5c3485(0x166)]=_0x462372/0x2+'px',_0x21d3dc[_0x5c3485(0x121)]['marginLeft']=_0x462372/0x8+'px',_0x21d3dc[_0x5c3485(0x121)]['marginTop']=_0x462372/0x8+'px',_0x21d3dc[_0x5c3485(0x121)][_0x5c3485(0x12a)]=_0x462372/0x8+'px';let _0x149eed=document['getElementById'](_0x5c3485(0x124));_0x149eed[_0x5c3485(0x121)]['width']=canvas_width-canvas_width/0x14+'px',_0x149eed['style'][_0x5c3485(0x15b)]=canvas_height/1.2+'px',_0x149eed[_0x5c3485(0x121)]['marginLeft']=canvas_width/0x28+'px',_0x149eed[_0x5c3485(0x121)][_0x5c3485(0x17e)]=canvas_height/0x7+'px',_0x149eed=document['getElementById'](_0x5c3485(0x176));let _0x1dd7f2=_0x149eed['clientWidth'];_0x149eed[_0x5c3485(0x121)][_0x5c3485(0x17b)]='rgb(100,\x20100,\x20100)',_0x149eed[_0x5c3485(0x121)][_0x5c3485(0x166)]=_0x462372/2.5+'px',_0x149eed[_0x5c3485(0x121)]['marginLeft']=canvas_width/0x2-_0x1dd7f2/0x2+'px',_0x149eed[_0x5c3485(0x121)][_0x5c3485(0x17e)]=canvas_height/0x1e+'px',_0x149eed=document['getElementById'](_0x5c3485(0x165)),_0x149eed['style'][_0x5c3485(0x17b)]='rgb(100,\x20100,\x20100)',_0x149eed[_0x5c3485(0x121)][_0x5c3485(0x12e)]=canvas_width-canvas_width/0xa+'px',_0x149eed[_0x5c3485(0x121)][_0x5c3485(0x166)]=_0x462372/0x5+'px',_0x149eed['style'][_0x5c3485(0x15b)]=canvas_height/1.5+'px',_0x149eed[_0x5c3485(0x121)][_0x5c3485(0x173)]=canvas_width/0x64+'px',_0x149eed[_0x5c3485(0x121)][_0x5c3485(0x17e)]=canvas_height/0x8+'px';let _0xecab02=gamemode_classic_instructions[_0x5c3485(0x137)],_0x26b03d=gamemode_classic_instructions[_0x5c3485(0x14f)];_0x21d3dc=document['getElementById'](_0x5c3485(0x175)),_0x21d3dc['style'][_0x5c3485(0x12e)]=_0xecab02+'px',_0x21d3dc['style']['height']=_0x26b03d/0xa+'px',_0x21d3dc[_0x5c3485(0x121)][_0x5c3485(0x166)]=_0x462372/0x3+'px',_0x21d3dc[_0x5c3485(0x121)][_0x5c3485(0x173)]=_0x5c3485(0x172),_0x21d3dc[_0x5c3485(0x121)]['marginTop']=_0x26b03d-_0x26b03d/0xa+'px',_0x21d3dc[_0x5c3485(0x121)][_0x5c3485(0x12a)]=_0x462372/0x8+'px';}select();}function page_gamemode_classic_play(){const _0x1e7772=_0x32d679,_0x181988=document[_0x1e7772(0x16a)](_0x1e7772(0x12b)),_0x358005=_0x181988[_0x1e7772(0x188)]('2d');document[_0x1e7772(0x16a)]('page_gamemode_classic_play')['style'][_0x1e7772(0x15a)]=_0x1e7772(0x170);if(card['id']<0x0)card['id']=0x0;else card['id']>card[_0x1e7772(0x138)][_0x1e7772(0x162)]-0x1&&(card['id']=card['content']['length']-0x1);let _0x244bce=card['content'][card['id']];card[_0x1e7772(0x16d)]==0x0?setTimeout(()=>document[_0x1e7772(0x16a)](_0x1e7772(0x13d))[_0x1e7772(0x122)]=_0x244bce[_0x1e7772(0x159)],0x7d):setTimeout(()=>document[_0x1e7772(0x16a)](_0x1e7772(0x13d))['innerHTML']=_0x244bce['definition'],0x7d);if(format=='PC'){let _0x37e8eb=canvas_height/0x8;_0x181988[_0x1e7772(0x12e)]=canvas_width,_0x181988['height']=canvas_height,_0x181988[_0x1e7772(0x121)]['marginLeft']=_0x1e7772(0x172),_0x181988['style'][_0x1e7772(0x17e)]=_0x1e7772(0x172);let _0x565b86=canvas_width/0x5;_0x565b86>0xc8&&(_0x565b86=0xc8);let _0x22de15=canvas_width-_0x565b86;canvas_rect([0x0,0x0,canvas_width,_0x37e8eb],_0x1e7772(0x134)),canvas_rect([_0x22de15,_0x37e8eb,_0x565b86,canvas_height-_0x37e8eb],_0x1e7772(0x134));let _0x4e1339=_0x37e8eb,_0x3f4126=canvas_height/0xe;canvas_text(_0x1e7772(0x146),[_0x4e1339,_0x3f4126],canvas_height/0x10,_0x1e7772(0x125),_0x1e7772(0x11d),'left'),_0x3f4126=canvas_height/0x9,canvas_text(_0x1e7772(0x128)+card[_0x1e7772(0x138)]['length']+_0x1e7772(0x143),[_0x4e1339,_0x3f4126],canvas_height/0x28,'white',_0x1e7772(0x11d),_0x1e7772(0x177));let _0x27c10c=_0x565b86/0x5,_0x29c776=_0x565b86-_0x27c10c;canvas_rect([_0x22de15+_0x27c10c/0x2,_0x37e8eb,_0x29c776,_0x37e8eb],_0x1e7772(0x185)),canvas_text(card['id']+0x1+'/'+card[_0x1e7772(0x138)]['length'],[_0x22de15+_0x565b86/0x2,_0x37e8eb+_0x37e8eb/0x2],canvas_height/0x14,'white','Poppins',_0x1e7772(0x16f)),canvas_text(_0x1e7772(0x13f),[_0x22de15+_0x565b86/0x2,_0x37e8eb+_0x37e8eb/1.2],canvas_height/0x28,'white',_0x1e7772(0x11d),'center');let _0xf4cc80=document[_0x1e7772(0x16a)](_0x1e7772(0x160));_0xf4cc80[_0x1e7772(0x121)][_0x1e7772(0x12e)]=_0x37e8eb/0x4*0x3+'px',_0xf4cc80[_0x1e7772(0x121)][_0x1e7772(0x15b)]=_0x37e8eb/0x4*0x3+'px',_0xf4cc80[_0x1e7772(0x121)]['fontSize']=_0x37e8eb/0x2+'px',_0xf4cc80['style'][_0x1e7772(0x173)]=_0x37e8eb/0x8+'px',_0xf4cc80['style'][_0x1e7772(0x17e)]=_0x37e8eb/0x8+'px',_0xf4cc80[_0x1e7772(0x121)][_0x1e7772(0x12a)]=_0x37e8eb/0x8+'px';let _0x539eed=canvas_width-_0x565b86-(canvas_width-_0x565b86)/0x28,_0x4331ff=canvas_height/1.35;_0x539eed/0x2>_0x4331ff/0x1&&(_0x539eed=_0x4331ff/0x1*0x2);let _0x3ba77b=(canvas_width-_0x565b86)/0x2-_0x539eed/0x2,_0x5557c6=(canvas_height+_0x37e8eb)/0x28+_0x37e8eb;_0xf4cc80=document[_0x1e7772(0x16a)](_0x1e7772(0x13d)),_0xf4cc80[_0x1e7772(0x121)][_0x1e7772(0x12e)]=_0x539eed+'px',_0xf4cc80[_0x1e7772(0x121)][_0x1e7772(0x15b)]=_0x4331ff+'px',_0xf4cc80[_0x1e7772(0x121)][_0x1e7772(0x166)]=_0x37e8eb/0x3+'px',_0xf4cc80['style'][_0x1e7772(0x173)]=_0x3ba77b+'px',_0xf4cc80[_0x1e7772(0x121)][_0x1e7772(0x17e)]=_0x5557c6+'px',canvas_rect([_0x3ba77b,_0x5557c6,_0x539eed,_0x4331ff],'rgb(100,\x20100,\x20100)'),canvas_text(_0x1e7772(0x171),[_0x3ba77b+_0x539eed/0x2,_0x5557c6+_0x4331ff/0x2],_0x37e8eb/0x3,_0x1e7772(0x152),_0x1e7772(0x11d),_0x1e7772(0x16f)),_0xf4cc80=document[_0x1e7772(0x16a)]('card_back'),_0xf4cc80[_0x1e7772(0x121)]['width']=_0x539eed/0x2-_0x539eed/0x64+'px',_0xf4cc80['style']['height']=_0x37e8eb/1.5+'px',_0xf4cc80[_0x1e7772(0x121)][_0x1e7772(0x166)]=_0x37e8eb/2.5+'px',_0xf4cc80['style'][_0x1e7772(0x173)]=_0x3ba77b+'px',_0xf4cc80[_0x1e7772(0x121)][_0x1e7772(0x17e)]=canvas_height-_0x37e8eb/1.5+'px',_0xf4cc80[_0x1e7772(0x121)][_0x1e7772(0x12a)]=canvas_height/0x4b+'px',_0xf4cc80=document[_0x1e7772(0x16a)]('card_next'),_0xf4cc80[_0x1e7772(0x121)][_0x1e7772(0x12e)]=_0x539eed/0x2-_0x539eed/0x64+'px',_0xf4cc80[_0x1e7772(0x121)][_0x1e7772(0x15b)]=_0x37e8eb/1.5+'px',_0xf4cc80[_0x1e7772(0x121)][_0x1e7772(0x166)]=_0x37e8eb/2.5+'px',_0xf4cc80['style'][_0x1e7772(0x173)]=_0x3ba77b+_0x539eed/0x2+_0x539eed/0x64+'px',_0xf4cc80[_0x1e7772(0x121)]['marginTop']=canvas_height-_0x37e8eb/1.5+'px',_0xf4cc80['style'][_0x1e7772(0x12a)]=canvas_height/0x4b+'px';}if(format==_0x1e7772(0x17a)){let _0x2bd91b=canvas_height/0x8;_0x181988[_0x1e7772(0x12e)]=canvas_width,_0x181988[_0x1e7772(0x15b)]=canvas_height,_0x181988[_0x1e7772(0x121)][_0x1e7772(0x173)]=_0x1e7772(0x172),_0x181988[_0x1e7772(0x121)]['marginTop']=_0x1e7772(0x172),canvas_rect([0x0,0x0,canvas_width,_0x2bd91b],_0x1e7772(0x134));let _0x173d15=_0x2bd91b,_0x3e6df3=canvas_height/0xe;canvas_text('Classic',[_0x173d15,_0x3e6df3],canvas_height/0x10,_0x1e7772(0x125),_0x1e7772(0x11d),_0x1e7772(0x177)),_0x3e6df3=canvas_height/0x9,canvas_text(_0x1e7772(0x126)+(card['id']+0x1)+'/'+card[_0x1e7772(0x138)]['length'],[_0x173d15,_0x3e6df3],canvas_height/0x28,'white',_0x1e7772(0x11d),_0x1e7772(0x177));let _0xf19e45=document[_0x1e7772(0x16a)]('gamemode_classic_play_back');_0xf19e45['style'][_0x1e7772(0x12e)]=_0x2bd91b/0x4*0x3+'px',_0xf19e45[_0x1e7772(0x121)]['height']=_0x2bd91b/0x4*0x3+'px',_0xf19e45[_0x1e7772(0x121)]['fontSize']=_0x2bd91b/0x2+'px',_0xf19e45[_0x1e7772(0x121)]['marginLeft']=_0x2bd91b/0x8+'px',_0xf19e45[_0x1e7772(0x121)][_0x1e7772(0x17e)]=_0x2bd91b/0x8+'px',_0xf19e45['style'][_0x1e7772(0x12a)]=_0x2bd91b/0x8+'px';let _0x5bf1a6=canvas_width-canvas_width/0x28,_0x4f4216=canvas_height/1.35,_0x1644f0=canvas_width/0x2-_0x5bf1a6/0x2,_0x27359a=(canvas_height+_0x2bd91b)/0x28+_0x2bd91b;_0xf19e45=document['getElementById'](_0x1e7772(0x13d)),_0xf19e45['style'][_0x1e7772(0x12e)]=_0x5bf1a6+'px',_0xf19e45[_0x1e7772(0x121)][_0x1e7772(0x15b)]=_0x4f4216+'px',_0xf19e45['style']['fontSize']=_0x2bd91b/0x3+'px',_0xf19e45['style'][_0x1e7772(0x173)]=_0x1644f0+'px',_0xf19e45[_0x1e7772(0x121)][_0x1e7772(0x17e)]=_0x27359a+'px',canvas_rect([_0x1644f0,_0x27359a,_0x5bf1a6,_0x4f4216],'rgb(100,\x20100,\x20100)'),canvas_text(_0x1e7772(0x171),[_0x1644f0+_0x5bf1a6/0x2,_0x27359a+_0x4f4216/0x2],_0x2bd91b/0x3,'rgb(150,\x20150,\x20150)',_0x1e7772(0x11d),_0x1e7772(0x16f)),_0xf19e45=document['getElementById'](_0x1e7772(0x120)),_0xf19e45['style'][_0x1e7772(0x12e)]=_0x5bf1a6/0x2-_0x5bf1a6/0x64+'px',_0xf19e45[_0x1e7772(0x121)][_0x1e7772(0x15b)]=_0x2bd91b/1.5+'px',_0xf19e45['style']['fontSize']=_0x2bd91b/2.5+'px',_0xf19e45['style']['marginLeft']=_0x1644f0+'px',_0xf19e45[_0x1e7772(0x121)]['marginTop']=canvas_height-_0x2bd91b/1.5+'px',_0xf19e45[_0x1e7772(0x121)][_0x1e7772(0x12a)]=canvas_height/0x4b+'px',_0xf19e45=document[_0x1e7772(0x16a)](_0x1e7772(0x131)),_0xf19e45[_0x1e7772(0x121)][_0x1e7772(0x12e)]=_0x5bf1a6/0x2-_0x5bf1a6/0x64+'px',_0xf19e45[_0x1e7772(0x121)][_0x1e7772(0x15b)]=_0x2bd91b/1.5+'px',_0xf19e45[_0x1e7772(0x121)][_0x1e7772(0x166)]=_0x2bd91b/2.5+'px',_0xf19e45[_0x1e7772(0x121)][_0x1e7772(0x173)]=_0x1644f0+_0x5bf1a6/0x2+_0x5bf1a6/0x64+'px',_0xf19e45[_0x1e7772(0x121)][_0x1e7772(0x17e)]=canvas_height-_0x2bd91b/1.5+'px',_0xf19e45[_0x1e7772(0x121)][_0x1e7772(0x12a)]=canvas_height/0x4b+'px';}}function select(_0x2ef52d=null){const _0x61a613=_0x32d679;let _0x1ae5fe=canvas_height/0x96;format==_0x61a613(0x17a)&&(_0x1ae5fe=canvas_height/0x32);if(_0x2ef52d==null)for(let _0x153300=0x0;_0x153300<selected[_0x61a613(0x162)];_0x153300++){let _0x3686db=document[_0x61a613(0x16a)](_0x61a613(0x118)+selected[_0x153300]);_0x3686db['style'][_0x61a613(0x153)]=_0x1ae5fe+_0x61a613(0x180),_0x3686db['style'][_0x61a613(0x17b)]=_0x61a613(0x133);}else{const _0x185804=document[_0x61a613(0x16a)](_0x61a613(0x118)+_0x2ef52d),_0x384838=selected[_0x61a613(0x145)](_0x2ef52d);_0x384838>-0x1?(selected[_0x61a613(0x127)](_0x384838,0x1),_0x185804['style'][_0x61a613(0x153)]=_0x1ae5fe+_0x61a613(0x147),_0x185804[_0x61a613(0x121)][_0x61a613(0x17b)]=_0x61a613(0x134)):(selected[_0x61a613(0x119)](_0x2ef52d),_0x185804['style'][_0x61a613(0x153)]=_0x1ae5fe+'px\x20lime\x20solid',_0x185804[_0x61a613(0x121)][_0x61a613(0x17b)]='rgb(100,\x20125,\x20100)');}if(format=='PC'){let _0x15cb9b=canvas_height/0x8,_0x57e049=document[_0x61a613(0x16a)](_0x61a613(0x129));_0x57e049[_0x61a613(0x121)][_0x61a613(0x12e)]=canvas_width/0x5+'px',_0x57e049[_0x61a613(0x121)][_0x61a613(0x15b)]=_0x15cb9b/0x4*0x3+'px',_0x57e049[_0x61a613(0x121)][_0x61a613(0x166)]=canvas_height/0x19+'px',_0x57e049[_0x61a613(0x121)][_0x61a613(0x173)]=canvas_width-canvas_width/0x5-_0x15cb9b/0x8+'px',_0x57e049[_0x61a613(0x121)][_0x61a613(0x17e)]=_0x15cb9b/0x8+'px',_0x57e049[_0x61a613(0x121)][_0x61a613(0x12a)]=canvas_width/0x64+'px',selected['length']>0x0?(_0x57e049[_0x61a613(0x121)]['color']=_0x61a613(0x125),_0x57e049['style'][_0x61a613(0x17b)]=_0x61a613(0x161)):(_0x57e049['style'][_0x61a613(0x156)]=_0x61a613(0x13a),_0x57e049[_0x61a613(0x121)][_0x61a613(0x17b)]=_0x61a613(0x185));}else{if(format==_0x61a613(0x17a)){let _0x4ab755=canvas_height/0x8,_0xa0c71c=document[_0x61a613(0x16a)](_0x61a613(0x129));_0xa0c71c[_0x61a613(0x121)][_0x61a613(0x12e)]=canvas_width+'px',_0xa0c71c[_0x61a613(0x121)][_0x61a613(0x15b)]=_0x4ab755/0x4*0x3+'px',_0xa0c71c['style'][_0x61a613(0x166)]=canvas_height/0x19+'px',_0xa0c71c['style']['marginLeft']=0x0+'px',_0xa0c71c[_0x61a613(0x121)]['marginTop']=canvas_height-_0x4ab755/0x4*0x3+'px',_0xa0c71c[_0x61a613(0x121)][_0x61a613(0x12a)]=canvas_width/0x19+'px',selected['length']>0x0?(_0xa0c71c['style'][_0x61a613(0x156)]=_0x61a613(0x125),_0xa0c71c[_0x61a613(0x121)]['backgroundColor']=_0x61a613(0x161)):(_0xa0c71c[_0x61a613(0x121)][_0x61a613(0x156)]=_0x61a613(0x13a),_0xa0c71c['style'][_0x61a613(0x17b)]=_0x61a613(0x134));}}}function _0x5571(){const _0x3c99b3=['white','Card\x20','splice','Studying\x20','title_select_continue','borderRadius','title_graphic','classic','fill','width','lineTo','page_gamemode_classic_play','card_next','18677879OTmbBR','rgb(100,\x20125,\x20100)','rgb(100,\x20100,\x20100)','title_select','log','clientWidth','content','spell','grey','7KJZOOh','Flashcards\x20program\x20by\x20Mynameisevanbro!','card','title_select_load','Card\x20number','page_gamemode_classic','2854648jPKslB','clear','\x20terms','More\x20on\x20Desktop\x20Version!','indexOf','Classic','px\x20white\x20solid','page_gamemode','36YjqDXR','title_select_set0','Play','addEventListener','gamemode_classic','gamemode_classic_back','clientHeight','page_title','Select\x20set','rgb(150,\x20150,\x20150)','borderLeft','title_credit','borderTopLeftRadius','color','title_setting','You\x20can\x20choose\x20multiple','term','display','height','px\x20cyan\x20solid','split','font','720314pdpyfK','gamemode_classic_play_back','rgb(100,\x20150,\x20150)','length','Code\x20&\x20Program\x20by:\x20Mynameisevanbro','gamemode_back','ins1','fontSize','load','Loading','15163929pcQcmV','getElementById','title','speed','side','TriFlash','center','initial','[Loading\x20term]','0px','marginLeft','How\x20to\x20Play','gamemode_classic_play','ins0','left','none','gamemode','mobile','backgroundColor','4188vJLtAY','borderTop','marginTop','5129470kMLGhk','px\x20lime\x20solid','449976KnWyHj','page_title_select','gamemode_','2dCSnLQ','rgb(50,\x2050,\x2050)','innerWidth','title_select_back','getContext','beginPath','title_select_set','push','Loading\x20definitions','Online\x20Edition\x20-\x20PC\x20webpage\x20view','3065CLKkDV','Poppins','title_start','learn','card_back','style','innerHTML','Bugs?\x20Notify\x20me!','gamemode_classic_instructions'];_0x5571=function(){return _0x3c99b3;};return _0x5571();}function reset(){const _0x156b11=_0x32d679;console[_0x156b11(0x142)](),console[_0x156b11(0x136)](_0x156b11(0x13c)),document['getElementById'](_0x156b11(0x16b))[_0x156b11(0x122)]='TriFlash\x20Online\x20Edition';const _0xd98868=document['getElementById'](_0x156b11(0x12b)),_0x2bef30=_0xd98868[_0x156b11(0x188)]('2d');canvas_width=window[_0x156b11(0x186)]-0x14,canvas_height=window['innerHeight']-0x19;screen[_0x156b11(0x12e)]>0x3c0?format='PC':format=_0x156b11(0x17a);hide_all();if(page==_0x156b11(0x16b))page_title();else{if(page==_0x156b11(0x135))page_title_select();else{if(page==_0x156b11(0x13e))page_title_select_load();else{if(page==_0x156b11(0x179))page_gamemode();else{if(page=='gamemode_classic')page_gamemode_classic();else page==_0x156b11(0x175)&&page_gamemode_classic_play();}}}}}window[_0x32d679(0x14c)](_0x32d679(0x167),()=>{reset(),reset();}),window[_0x32d679(0x14c)]('resize',()=>{reset(),reset();});
+// varables
+var canvas_width;
+var canvas_height;
+var s = {
+	// main + screen
+	"run": false,
+	"loaded": false,
+	"x_shake": 0,
+	"y_shake": 0,
+	"animation": [],
+	// player
+	"x": 0,
+	"y": 0,
+	"w": 0,
+	"h": 0,
+	"s": 0,  // speed
+	"a": 360,  // angle
+	"m": "red",  // mode
+	"hidden": false,
+	"pulse": false,
+	"pulse_m": 0,  // magnitude
+	"gravity": "down",
+	"force": 0,
+	"lock": false,  // can move?
+	// controls
+	"left": false,
+	"left_enabled": false,
+	"right": false,
+	"right_enabled": false,
+	"up": false,
+	"up_enabled": false,
+	"down": false,
+	"down_enabled": false,
+	// FPS
+	"frame": 0,
+	"timeframe": [],
+	"fps_set": 60,
+	"fps": 0,
+	"fps_avg_arrary": [9999999],
+	"fps_avg": 0,
+	"timeout": 20,
+}
+var box = {
+	"preset": "square",
+	"hidden": false,
+	"bottom": 0,
+	"x": 0,
+	"y": 0,
+	"w": 0,
+	"h": 0,
+	"line_w" : 0,
+	"hlw": 0,  // half line width
+}
+var texture = {
+	"title": null,
+	// soul textures
+	"soul_red": null,
+	"soul_blue": null,
+	// options data
+	"opt_xm": 0,  // x multiplier
+	"opt_y": 0,
+	"opt_w": 0,
+	"opt_xo": 0,  // x offset
+	"opt_h": 0,
+	// option textures
+	"fight0": null,
+	"act0": null,
+	"item0": null,
+}
+
+
+var audio = {
+	"impact": null,
+	"theme0": null,
+}
+var command = []
+
+
+// system
+function manage_fps(){
+	// set frames
+	s["frame"] ++;
+	s["timeframe"].push(+new Date());
+	s["fps"] = s["timeframe"].length;
+	// fps average
+	s["fps_avg_arrary"].push(s["fps"])
+	if (s["fps_avg_arrary"].length > s["fps_set"] * 2) {
+		s["fps_avg_arrary"].shift();
+	}
+	s["fps_avg"] = Math.round(s["fps_avg_arrary"].reduce((a, b) => a + b, 0) / (s["fps_set"] * 2));
+	// remove old time frames
+	let timeframe_range = s["timeframe"].at(-1) - s["timeframe"][0];
+	while (timeframe_range >= 1000) {
+		s["timeframe"].shift();
+		timeframe_range = s["timeframe"].at(-1) - s["timeframe"][0];
+	}
+	// adjust frame rate timeout
+	if (s["fps"] > s["fps_set"] * 2) {
+		s["timeout"] += 0.1;
+	}else if (s["fps"] > s["fps_set"]) {
+		s["timeout"] += 0.05;
+	} else if (s["fps"] < s["fps_set"]) {
+		s["timeout"] -= 0.05;
+	}
+}
+
+
+// GUI
+function canvas_text(text, pos, size, color, font, alignment="center") {
+	// define canvas
+	const canvas = document.getElementById("canvas");
+	const ctx = canvas.getContext("2d");
+	// draw title
+	ctx.font = `${size}px ${font}`;
+	ctx.textAlign = alignment;
+	ctx.fillStyle = color;
+	ctx.fillText(text, pos[0], pos[1]);
+}
+
+
+function canvas_rect(rect, color) {
+	// define canvas
+	const canvas = document.getElementById("canvas");
+	const ctx = canvas.getContext("2d");
+	// draw title
+	ctx.fillStyle = color;
+	ctx.fillRect(rect[0], rect[1], rect[2], rect[3]);
+}
+
+
+function canvas_img(image, rect, angle=0, opacity=1) {
+	// define canvas
+	const canvas = document.getElementById("canvas");
+	const ctx = canvas.getContext("2d");
+	// draw image
+	ctx.translate(rect[0] + rect[2] / 2, rect[1] + rect[3] / 2)
+	ctx.rotate(angle * Math.PI / 180)
+	ctx.globalAlpha = opacity
+	try {
+		ctx.drawImage(image, -(rect[2] / 2), -(rect[3] / 2), rect[2], rect[3]);
+	} catch {
+		canvas_rect(rect, "red")
+	}
+	ctx.rotate(-angle * Math.PI / 180)
+	ctx.translate(-(rect[0] + rect[2] / 2), -(rect[1] + rect[3] / 2))
+	ctx.globalAlpha = 1
+	
+}
+
+
+// game functions
+function manage_box() {
+	// draw box
+	if (box["hidden"] == false) {
+		box["hlw"] = box["line_w"] / 2  // half line width
+		canvas_rect([box["x"] - box["hlw"] + s["x_shake"], box["y"] - box["hlw"] + s["y_shake"], box["line_w"], box["h"]], "white");
+		canvas_rect([box["x"] - box["hlw"] + box["line_w"] + s["x_shake"], box["y"] - box["hlw"] + s["y_shake"], box["w"], box["line_w"]], "white");
+		canvas_rect([box["x"] - box["hlw"] + box["w"] + s["x_shake"], box["y"] - box["hlw"] + box["line_w"] + s["y_shake"], box["line_w"], box["h"]], "white");
+		canvas_rect([box["x"] - box["hlw"] + s["x_shake"], box["y"] - box["hlw"] + box["h"] + s["y_shake"], box["w"], box["line_w"]], "white");
+	}
+	// update dimensions
+	let w_tar = box["w"]
+	let h_tar = box["h"]
+	let x_tar = box["x"]
+	let y_tar = box["y"]
+	if (box["preset"] == "square") {
+		// calculate target values
+		w_tar = canvas_width / 3.5
+		h_tar = w_tar
+		x_tar = (canvas_width / 2) - (w_tar / 2)
+		y_tar = box["bottom"] - h_tar
+	} else if (box["preset"] == "rectangle") {
+		// calculate target values
+		w_tar = canvas_width / 1.5
+		h_tar = (canvas_width / 3.5) / 1.2
+		x_tar = (canvas_width / 2) - (w_tar / 2)
+		y_tar = box["bottom"] - h_tar
+	}
+	// apply dimensions
+	let x_diff = Math.abs(box["x"] - x_tar) / 4
+	if (box["x"] > x_tar) {
+		box["x"] -= x_diff
+	} else if (box["h"] < x_tar) {
+		box["x"] += x_diff
+	}
+	let y_diff = Math.abs(box["y"] - y_tar) / 4
+	if (box["y"] > y_tar) {
+		box["y"] -= y_diff
+	} else if (box["h"] < y_tar) {
+		box["y"] += y_diff
+	}
+	let w_diff = Math.abs(box["w"] - w_tar) / 4
+	if (box["w"] > w_tar) {
+		box["w"] -= w_diff
+	} else if (box["w"] < w_tar) {
+		box["w"] += w_diff
+	}
+	let h_diff = Math.abs(box["h"] - h_tar) / 4
+	if (box["h"] > h_tar) {
+		box["h"] -= h_diff
+	} else if (box["h"] < h_tar) {
+		box["h"] += h_diff
+	}
+	// fix jittering
+	if (Math.abs(x_tar - box["x"]) < 2) {
+		box["x"] = x_tar
+	}
+	if (Math.abs(y_tar - box["y"]) < 2) {
+		box["y"] = y_tar
+	}
+	if (Math.abs(w_tar - box["w"]) < 2) {
+		box["w"] = w_tar
+	}
+	if (Math.abs(w_tar - box["h"]) < 2) {
+		box["h"] = w_tar
+	}
+}
+
+
+function manage_command() {
+	// output console commands
+	let con = document.getElementById("console")
+	con.innerHTML = ""
+	for (let i = 0;i < command.length; i ++) {
+		if (command[i]["name"] == "wait") {
+			con.innerHTML += `wait.${command[i]["until"]}.${command[i]["time"]}\n`
+		}
+		if (command[i]["name"] == "position") {
+			con.innerHTML += `position.${command[i]["preset_name"]}.${command[i]["x"]}.${command[i]["y"]}\n`
+		}
+		if (command[i]["name"] == "box") {
+			con.innerHTML += `box.${command[i]["preset"]}.${command[i]["hidden"]}\n`
+		}
+		if (command[i]["name"] == "soul") {
+			con.innerHTML += `soul.${command[i]["mode"]}.${command[i]["gravity"]}\n`
+		}
+		if (command[i]["name"] == "audio") {
+			con.innerHTML += `audio.${command[i]["file"]}\n`
+		}
+		if (command[i]["name"] == "animate") {
+			con.innerHTML += `animate.${command[i]["preset"]}\n`
+		}
+	}
+	// run through & execute commands
+	for (let i = 0; i < command.length; i ++) {
+		try {
+			// execute
+			if (command[0]["name"] == "wait") {
+				// wait type load (wait until program fully loads)
+				if (command[0]["until"] == "load") {
+					// detect if loaded, if not loaded, wait
+					if (s["fps_avg"] == 60) {
+						// finish task
+						command.shift()
+					} else {
+						break
+					}
+				}
+				// wait type time (wait until time is up)
+				if (command[0]["until"] == "time") {
+					// detect if loaded, if not loaded, wait
+					if (command[0]["time"] <= 0) {
+						// finish task
+						command.shift()
+					} else {
+						command[0]["time"] -= 1
+						break
+					}
+				}
+			}
+			if (command[0]["name"] == "position") {
+				// position preset
+				if (command[0]["preset"] == true) {
+					// center
+					if (command[0]["preset_name"] == "center") {
+						s["x"] = box["x"] + (box["w"] / 2) - (s["w"] / 2)
+						s["y"] = box["y"] + (box["h"] / 2) - (s["h"] / 2)
+					}
+				}
+				// finish task
+				command.shift()
+			}
+			if (command[0]["name"] == "box") {
+				// apply values
+				box["preset"] = command[0]["preset"]
+				box["hidden"] = command[0]["hidden"]
+				// finish task
+				command.shift()
+			}
+			if (command[0]["name"] == "soul") {
+				// apply values
+				s["m"] = command[0]["mode"]
+				s["gravity"] = command[0]["gravity"]
+				s["force"] = command[0]["force"] * s["s"]
+				s["pulse"] = command[0]["pulse"]
+				s["hidden"] = command[0]["hidden"]
+				// reset gravity
+				s["up_enabled"] = false;
+				s["down_enabled"] = false;
+				// finish task
+				command.shift()
+			}
+			if (command[0]["name"] == "audio") {
+				// play audio
+				audio[command[0]["file"]].play()
+				// finish task
+				command.shift()
+			}
+			if (command[0]["name"] == "animate") {
+				// push animation
+				obj = {
+					"name": command[0]["preset"],
+					"frame": 0,
+				}
+				s["animation"].push(obj)
+				// finish task
+				command.shift()
+			}
+		} catch {
+
+		}
+	}
+}
+
+
+function manage_movement() {
+	if (s["m"] == "red") {
+		// angle
+		let diff = Math.abs(s["a"])
+		if (s["a"] > 0) {
+			s["a"] -= diff / 10
+		}
+		// movement
+		if (s["left"]) {
+			s["x"] -= s["s"];
+		}
+		if (s["right"]) {
+			s["x"] += s["s"];
+		}
+		if (s["up"]) {
+			s["y"] -= s["s"];
+		}
+		if (s["down"]) {
+			s["y"] += s["s"];
+		}
+	} else if (s["m"] == "blue") {
+		// gravity down
+		if (s["gravity"] == "down") {
+			// angle
+			let diff = Math.abs(s["a"])
+			if (s["a"] > 0) {
+				s["a"] -= diff / 10
+			}
+			if (s["a"] < 0) {
+				s["a"] += diff / 10
+			}
+			if (Math.abs(s["a"]) < 5) {
+				s["a"] = 0
+			}
+			// force
+			s["force"] *= 1.05
+			if (s["left"]) {
+				s["x"] -= s["s"];
+			}
+			if (s["right"]) {
+				s["x"] += s["s"];
+			}
+			s["y"] += s["force"]
+			if (s["down_enabled"]) {
+				if (s["up"]) {
+					s["y"] -= s["s"] * 2;
+				} else {
+					s["down_enabled"] = false
+				}
+			}
+		}
+		// gravity up
+		if (s["gravity"] == "up") {
+			// angle
+			let diff = Math.abs(s["a"] - 180)
+			if (s["a"] > 180) {
+				s["a"] -= diff / 10
+			}
+			if (s["a"] < 180) {
+				s["a"] += diff / 10
+			}
+			if (Math.abs(s["a"] - 180) < 5) {
+				s["a"] = 180
+			}
+			// force
+			s["force"] *= 1.05
+			if (s["left"]) {
+				s["x"] -= s["s"];
+			}
+			if (s["right"]) {
+				s["x"] += s["s"];
+			}
+			s["y"] -= s["force"]
+			if (s["up_enabled"]) {
+				if (s["down"]) {
+					s["y"] += s["s"] * 2;
+				} else {
+					s["up_enabled"] = false
+				}
+			}
+		}
+		// gravity left
+		if (s["gravity"] == "left") {
+			// angle
+			let diff = Math.abs(s["a"] - 90)
+			if (s["a"] > 90) {
+				s["a"] -= diff / 10
+			}
+			if (s["a"] < 90) {
+				s["a"] += diff / 10
+			}
+			if (Math.abs(s["a"] - 90) < 5) {
+				s["a"] = 90
+			}
+			// force
+			s["force"] *= 1.05
+			if (s["up"]) {
+				s["y"] -= s["s"];
+			}
+			if (s["down"]) {
+				s["y"] += s["s"];
+			}
+			s["x"] -= s["force"]
+			if (s["left_enabled"]) {
+				if (s["right"]) {
+					s["x"] += s["s"] * 2;
+				} else {
+					s["left_enabled"] = false
+				}
+			}
+		}
+		// gravity right
+		if (s["gravity"] == "right") {
+			// angle
+			let diff = Math.abs(s["a"] - 270)
+			if (s["a"] > 270) {
+				s["a"] -= diff / 10
+			}
+			if (s["a"] < 270) {
+				s["a"] += diff / 10
+			}
+			if (Math.abs(s["a"] - 270) < 5) {
+				s["a"] = 270
+			}
+			// force
+			s["force"] *= 1.05
+			if (s["up"]) {
+				s["y"] -= s["s"];
+			}
+			if (s["down"]) {
+				s["y"] += s["s"];
+			}
+			s["x"] += s["force"]
+			if (s["right_enabled"]) {
+				if (s["left"]) {
+					s["x"] -= s["s"] * 2;
+				} else {
+					s["right_enabled"] = false
+				}
+			}
+		}
+	}
+}
+
+
+function manage_animation() {
+	// output console animation commands
+	let con = document.getElementById("console_animation");
+	con.innerHTML = "";
+	let percent = 0;
+	for (let i = 0; i < s["animation"].length; i ++) {
+		if (s["animation"][i]["name"] == "title") {
+			percent = Math.round((s["animation"][i]["frame"] / 2) * 100)
+			con.innerHTML += `${percent}% - title\n`
+		} else if (s["animation"][i]["name"] == "sans_intro") {
+			con.innerHTML += "sans_intro\n"
+		} else if (s["animation"][i]["name"] == "box_down") {
+			percent = Math.round(s["animation"][i]["frame"] * 100)
+			con.innerHTML += `${percent}% - box_down\n`
+		}
+	}
+	// execute animations
+	for (let i = 0; i < s["animation"].length; i ++) {
+		// title fade in/out
+		if (s["animation"][i]["name"] == "title") {
+			// animate
+			s["animation"][i]["frame"] += 0.01;
+			// define positions
+			let y = canvas_height / 2;
+			let w = canvas_width / 2;
+			let x = (canvas_width / 2) - (w / 2);
+			let h = (w * 53) / 170;
+			// fade in
+			if (s["animation"][i]["frame"] < 1) {
+				canvas_img(texture["title"], [x, y, w, h], 0, s["animation"][i]["frame"]);
+			// fade out
+			} else if (s["animation"][i]["frame"] < 2){
+				canvas_img(texture["title"], [x, y, w, h], 0, 2 - s["animation"][i]["frame"]);
+			// end animation
+			} else if (s["animation"][i]["frame"] > 2){
+				s["animation"].splice(i, 1)
+			}
+		// box down
+		} else if (s["animation"][i]["name"] == "box_down") {
+			// animate
+			s["animation"][i]["frame"] += 0.005
+			box["preset"] = "custom"
+			// calculate target values
+			let dist = box["bottom"] - (canvas_height / 2)
+			let w = s["w"]
+			let h = s["h"]
+			let x = (canvas_width / 2) - (w / 2)
+			let y = (canvas_height / 2) + (dist * s["animation"][i]["frame"])
+			// apply animation
+			box["w"] = w
+			box["h"] = h
+			box["x"] = x
+			box["y"] = y
+			// end animation
+			if (s["animation"][i]["frame"] > 1) {
+				s["animation"].splice(i, 1)
+			}
+		// sans intro
+		} else if (s["animation"][i]["name"] == "sans_intro") {
+			// animate
+			s["animation"][i]["frame"] += 0.01;
+			s["animation"].splice(i, 1)
+		}
+	}
+}
+
+
+// main loop
+function run() {
+	canvas_rect([0, 0, canvas_width, canvas_height], "black");
+	canvas_text(`FPS: ${s["fps"]}`, [5, 20], 20, "lime", "Courier", "left");
+	canvas_text(`avg: ${s["fps_avg"]}`, [5, 40], 20, "lime", "Courier", "left");
+	canvas_text(`FTO: ${Math.round(s["timeout"])}`, [5, 60], 20, "lime", "Courier", "left");
+	// draw options
+	canvas_img(texture["fight0"],
+		[texture["opt_xo"] + s["x_shake"], texture["opt_y"] + s["y_shake"],  texture["opt_w"], texture["opt_h"]])
+	canvas_img(texture["act0"],
+		[texture["opt_xm"] + texture["opt_xo"] + s["x_shake"], texture["opt_y"] + s["y_shake"], texture["opt_w"], texture["opt_h"]])
+	canvas_img(texture["item0"], 
+		[texture["opt_xm"] * 2 + texture["opt_xo"] + s["x_shake"], texture["opt_y"] + s["y_shake"], texture["opt_w"], texture["opt_h"]])
+	canvas_img(texture["mercy0"],
+		[texture["opt_xm"] * 3 + texture["opt_xo"] + s["x_shake"], texture["opt_y"] + s["y_shake"], texture["opt_w"], texture["opt_h"]])
+	// draw soul pulse
+	if (s["hidden"] == false) {
+		if (s["pulse"]) {
+			s["pulse_m"] += s["w"] / 20
+			if (s["pulse_m"] > s["w"] * 3.5) {
+				s["pulse_m"] = 0
+			}
+			let o = (s["pulse_m"] - s["w"]) / 2  // offset
+			let opacity = 1 - (s["pulse_m"] / (s["w"] * 3.5))
+			canvas_img(texture[`soul_${s["m"]}`],
+				[s["x"] - o + s["x_shake"], s["y"] - o + s["y_shake"], s["pulse_m"] , s["pulse_m"] ], s["a"], opacity)
+		}
+	}
+	// draw soul
+	if (s["hidden"] == false) {
+		canvas_img(texture[`soul_${s["m"]}`], [s["x"] + s["x_shake"], s["y"] + s["y_shake"], s["w"], s["h"]], s["a"])
+	}
+	// screen shake
+	if (s["x_shake"] > 0) {
+		s["x_shake"] -= Math.random() * (Math.abs(s["x_shake"] * 3))
+	} else if (s["x_shake"] < 0) {
+		s["x_shake"] += Math.random() * (Math.abs(s["x_shake"] * 3))
+	}
+	if (s["y_shake"] > 0) {
+		s["y_shake"] -= Math.random() * (Math.abs(s["y_shake"] * 3))
+	} else if (s["y_shake"] < 0) {
+		s["y_shake"] += Math.random() * (Math.abs(s["y_shake"] * 3))
+	}
+	if (Math.abs(s["x_shake"] < 2)) {
+		s["x_shake"] == 0
+	}
+	if (Math.abs(s["y_shake"] < 2)) {
+		s["y_shake"] == 0
+	}
+	// commands
+	manage_command();
+	// movement
+	manage_movement();
+	// animation
+	manage_animation();
+	// wall collision
+	if (s["x"] < box["x"] + box["hlw"]) {
+		s["x"] = box["x"] + box["hlw"]
+		// reset gravity
+		if (s["gravity"] == "left") {
+			if (s["force"] > 19) {
+				audio["impact"].play()
+				s["x_shake"] += (Math.random() * s["force"]) - (Math.random() * s["force"])
+				s["y_shake"] += (Math.random() * s["force"]) - (Math.random() * s["force"])
+			}
+			s["left_enabled"] = true
+			s["force"] = 1
+		}
+	}
+	if (s["x"] + s["w"] > box["x"] - box["hlw"] + box["w"]) {
+		s["x"] = box["x"] - box["hlw"] + box["w"] - s["w"]
+		// reset gravity
+		if (s["gravity"] == "right") {
+			if (s["force"] > 19) {
+				audio["impact"].play()
+				s["x_shake"] += (Math.random() * s["force"]) - (Math.random() * s["force"])
+				s["y_shake"] += (Math.random() * s["force"]) - (Math.random() * s["force"])
+			}
+			s["right_enabled"] = true
+			s["force"] = 1
+		}
+	}
+	if (s["y"] < box["y"] + box["hlw"]) {
+		s["y"] = box["y"] + box["hlw"]
+		// reset gravity
+		if (s["gravity"] == "up") {
+			if (s["force"] > 19) {
+				audio["impact"].play()
+				s["x_shake"] += (Math.random() * s["force"]) - (Math.random() * s["force"])
+				s["y_shake"] += (Math.random() * s["force"]) - (Math.random() * s["force"])
+			}
+			s["up_enabled"] = true
+			s["force"] = 1
+		}
+	}
+	if (s["y"] + s["h"] > box["y"] - box["hlw"] + box["h"]) {
+		s["y"] = box["y"] - box["hlw"] + box["h"] - s["h"]
+		// reset gravity
+		if (s["gravity"] == "down") {
+			if (s["force"] > 19) {
+				audio["impact"].play()
+				s["x_shake"] += (Math.random() * s["force"]) - (Math.random() * s["force"])
+				s["y_shake"] += (Math.random() * s["force"]) - (Math.random() * s["force"])
+			}
+			s["down_enabled"] = true
+			s["force"] = 1
+		}
+	}
+	// box
+	manage_box();
+	// manage FPS
+	manage_fps();
+	// loop?
+	if (s["run"] == true) {
+		setTimeout(run, s["timeout"]);
+	}
+}
+
+
+// start up
+function reset() {
+	// adjust canvas to 4:3 scale
+	const canvas = document.getElementById("canvas");
+	const console = document.getElementById("console");
+	const console_animation = document.getElementById("console_animation");
+	canvas_width = window.innerHeight;
+	canvas_height = (window.innerHeight / 4) * 3;
+	canvas.width = canvas_width;
+	canvas.height = canvas_height;
+	// adjust console
+	console.style.height = `${canvas_height}px`;
+	console_animation.style.height = `${canvas_height}px`;
+	// adjust box
+	box["line_w"] = canvas_width / 125;
+	box["bottom"] = canvas_height / 1.3
+	// adjust soul
+	s["w"] = canvas_width / 35;
+	s["h"] = canvas_width / 35;
+	s["s"] = canvas_width / 250;
+	// adjust options
+	texture["opt_xm"] = canvas_width / 4
+	texture["opt_y"] = canvas_height / 1.14
+	texture["opt_w"] = canvas_width / 5
+	texture["opt_xo"] = (texture["opt_xm"] - texture["opt_w"]) / 2
+	texture["opt_h"] = (texture["opt_w"] * 40) / 113
+	// load images
+	let title = new Image();
+	title.src = "https://raw.githubusercontent.com/Mynameisevanbro/FallBackTimeQuartet.io/main/texture/title.png";
+	texture["title"] = title;
+	let soul_red = new Image();
+	soul_red.src = "https://raw.githubusercontent.com/Mynameisevanbro/FallBackTimeQuartet.io/main/texture/soul_red.png";
+	texture["soul_red"] = soul_red;
+	let soul_blue = new Image();
+	soul_blue.src = "https://raw.githubusercontent.com/Mynameisevanbro/FallBackTimeQuartet.io/main/texture/soul_blue.png";
+	texture["soul_blue"] = soul_blue;
+	let fight0 = new Image();
+	fight0.src = "https://raw.githubusercontent.com/Mynameisevanbro/FallBackTimeQuartet.io/main/texture/fight0.png";
+	texture["fight0"] = fight0;
+	let act0 = new Image();
+	act0.src = "https://raw.githubusercontent.com/Mynameisevanbro/FallBackTimeQuartet.io/main/texture/act0.png";
+	texture["act0"] = act0;
+	let item0 = new Image();
+	item0.src = "https://raw.githubusercontent.com/Mynameisevanbro/FallBackTimeQuartet.io/main/texture/item0.png";
+	texture["item0"] = item0;
+	let mercy0 = new Image();
+	mercy0.src = "https://raw.githubusercontent.com/Mynameisevanbro/FallBackTimeQuartet.io/main/texture/mercy0.png";
+	texture["mercy0"] = mercy0;
+	// load audio
+	let impact = new Audio("https://github.com/Mynameisevanbro/FallBackTimeQuartet.io/blob/main/audio/impact.mp3?raw=true")
+	impact.type = 'audio/mp3';
+	impact.loop = false;
+	audio["impact"] = impact
+	// load music
+	let theme0 = new Audio("https://github.com/Mynameisevanbro/FallBackTimeQuartet.io/blob/main/audio/theme0.mp3?raw=true")
+	theme0.type = 'audio/mp3';
+	theme0.loop = false;
+	audio["theme0"] = theme0
+	// run
+	if (s["run"] != true) {
+		s["run"] = true;
+		run();
+	}
+}
+
+// event listeners
+window.addEventListener('load', ()=>{reset()});
+window.addEventListener('resize', ()=>{reset()});
+window.addEventListener('keydown', function(event) {
+		const key = event.key;
+		if (key == "ArrowLeft" || key.toUpperCase() == "A") {
+			s["left"] = true;
+			if (s["right"]) {
+				s["right"] = null;
+			}
+		}
+		if (key == "ArrowRight" || key.toUpperCase() == "D") {
+			s["right"] = true;
+			if (s["left"]) {
+				s["left"] = null;
+			}
+		}
+		if (key == "ArrowUp" || key.toUpperCase() == "W") {
+			s["up"] = true;
+			if (s["down"]) {
+				s["down"] = null;
+			}
+		}
+		if (key == "ArrowDown" || key.toUpperCase() == "S") {
+			s["down"] = true;
+			if (s["up"]) {
+				s["up"] = null;
+			}
+		}
+});
+window.addEventListener('keyup', function(event) {
+	const key = event.key;
+	if (key == "ArrowLeft" || key.toUpperCase() == "A") {
+		s["left"] = false;
+		if (s["right"] == null) {
+			s["right"] = true;
+		}
+	}
+	if (key == "ArrowRight" || key.toUpperCase() == "D") {
+		s["right"] = false;
+		if (s["left"] == null) {
+			s["left"] = true;
+		}
+	}
+	if (key == "ArrowUp" || key.toUpperCase() == "W") {
+		s["up"] = false;
+		if (s["down"] == null) {
+			s["down"] = true;
+		}
+	}
+	if (key == "ArrowDown" || key.toUpperCase() == "S") {
+		s["down"] = false;
+		if (s["up"] == null) {
+			s["up"] = true;
+		}
+		
+	}
+});
