@@ -1,1 +1,572 @@
-function _0x9961(_0x44aada,_0x3cf342){var _0x397267=_0x3972();return _0x9961=function(_0x9961cb,_0x2813d8){_0x9961cb=_0x9961cb-0x13e;var _0x252ea1=_0x397267[_0x9961cb];return _0x252ea1;},_0x9961(_0x44aada,_0x3cf342);}var _0x5814e5=_0x9961;(function(_0xa1af95,_0x4e6f95){var _0x449ede=_0x9961,_0x49c1d5=_0xa1af95();while(!![]){try{var _0x83edf9=parseInt(_0x449ede(0x145))/0x1*(-parseInt(_0x449ede(0x14a))/0x2)+-parseInt(_0x449ede(0x149))/0x3*(parseInt(_0x449ede(0x143))/0x4)+-parseInt(_0x449ede(0x146))/0x5+-parseInt(_0x449ede(0x142))/0x6+parseInt(_0x449ede(0x144))/0x7*(parseInt(_0x449ede(0x148))/0x8)+-parseInt(_0x449ede(0x13f))/0x9*(-parseInt(_0x449ede(0x140))/0xa)+-parseInt(_0x449ede(0x147))/0xb*(-parseInt(_0x449ede(0x13e))/0xc);if(_0x83edf9===_0x4e6f95)break;else _0x49c1d5['push'](_0x49c1d5['shift']());}catch(_0x3df2f8){_0x49c1d5['push'](_0x49c1d5['shift']());}}}(_0x3972,0x38070));function _0x3972(){var _0x2c754f=['3544370BXHoEW','\x0aALLEGORY\x20(G)<>story\x20or\x20poem\x20in\x20which\x20characters,\x20settings,\x20and\x20events\x20stand\x20for\x20other\x20people\x20or\x20events\x20or\x20for\x20abstract\x20ideas\x20or\x20qualities.\x20Example:\x20Animal\x20Farm,\x20Dante\x27s\x20Inferno,\x20and\x20Lord\x20of\x20the\x20Flies\x0aALLUSION\x20(G)<>reference\x20to\x20someone\x20or\x20something\x20that\x20is\x20known\x20from\x20history,\x20literature,\x20religion,\x20politics,\x20sports,\x20science,\x20or\x20another\x20branch\x20of\x20culture.\x20An\x20indirect\x20reference\x20to\x20something\x20(usually\x20from\x20literature,\x20etc.)\x0aAMBIGUITY\x20(G)<>deliberately\x20suggesting\x20two\x20or\x20more\x20different,\x20and\x20sometimes\x20conflicting,\x20meanings\x20in\x20a\x20work.\x20An\x20event\x20or\x20situation\x20that\x20may\x20be\x20interpreted\x20in\x20more\x20than\x20one\x20way--\x20this\x20is\x20done\x20on\x20purpose\x20by\x20the\x20author,\x20when\x20it\x20is\x20not\x20done\x20on\x20purpose,\x20it\x20is\x20vagueness,\x20and\x20detracts\x20from\x20the\x20work.\x0aANALOGY\x20(G)<>Comparison\x20made\x20between\x20two\x20things\x20to\x20show\x20how\x20they\x20are\x20alike\x0aANECDOTE\x20(G)<>Brief\x20story,\x20told\x20to\x20illustrate\x20a\x20point\x20or\x20serve\x20as\x20an\x20example\x20of\x20something,\x20often\x20shows\x20character\x20of\x20an\x20individual\x0aANTAGONIST\x20(G)<>Opponent\x20who\x20struggles\x20against\x20or\x20blocks\x20the\x20hero,\x20or\x20protagonist,\x20in\x20a\x20story.\x0aANTIHERO\x20(G)<>Central\x20character\x20who\x20lacks\x20all\x20the\x20qualities\x20traditionally\x20associated\x20with\x20heroes.\x20may\x20lack\x20courage,\x20grace,\x20intelligence,\x20or\x20moral\x20scruples.\x0aANTHROPOMORPHISM\x20(G)<>a\x20figure\x20of\x20speech\x20in\x20which\x20human\x20specific\x20characteristics\x20are\x20attributed\x20to\x20animals\x20other\x20than\x20humans.\x0aAPHORISM\x20(G)<>brief,\x20cleverly\x20worded\x20statement\x20that\x20makes\x20a\x20wise\x20observation\x20about\x20life,\x20or\x20of\x20a\x20principle\x20or\x20accepted\x20general\x20truth.\x20Also\x20called\x20maxim,\x20epigram.\x0aAPOSTROPHE\x20(G)<>calling\x20out\x20to\x20an\x20imaginary,\x20dead,\x20or\x20absent\x20person,\x20or\x20to\x20a\x20place\x20or\x20thing,\x20or\x20a\x20personified\x20abstract\x20idea.\x20If\x20the\x20character\x20is\x20asking\x20a\x20god\x20or\x20goddess\x20for\x20inspiration\x20it\x20is\x20called\x20an\x20invocation.\x20\x0aEXAMPLE:\x20Josiah\x20Holland\x20---\x22Loacöon!\x20Thou\x20great\x20embodiment/\x20Of\x20human\x20life\x20and\x20human\x20history!\x22\x0aARCHETYPE\x20(G)<>A\x20recurring\x20symbol,\x20character,\x20landscape,\x20or\x20event\x20found\x20throughout\x20myth\x20and\x20literature\x20across\x20different\x20cultures\x20and\x20eras.\x20In\x20terms\x20of\x20structure,\x20it\x20merely\x20serves\x20as\x20a\x20model\x20from\x20which\x20writers\x20create\x20different\x20versions\x20and\x20copies.\x0aASSONANCE\x20(G)<>the\x20repetition\x20of\x20similar\x20vowel\x20sounds\x20followed\x20by\x20different\x20consonant\x20sounds\x20especially\x20in\x20words\x20that\x20are\x20together.\x0aASYNDETON\x20(G)<>Commas\x20used\x20without\x20conjunction\x20to\x20separate\x20a\x20series\x20of\x20words,\x20thus\x20emphasizing\x20the\x20parts\x20equally:\x20instead\x20of\x20X,\x20Y,\x20and\x20Z...\x20the\x20writer\x20uses\x20X,Y,Z....\x20see\x20polysyndeton.\x0aATMOSPHERE\x20(G)<>The\x20dominant\x20feeling\x20that\x20is\x20created\x20by\x20a\x20particular\x20setting.\x0aBILDUNGSROMAN\x20(G)<>A\x20German\x20term\x20for\x20\x22novel\x20of\x20growth\x20and\x20development\x22.\x20They\x20generally\x20depict\x20a\x20youth\x20who\x20struggles\x20toward\x20maturity,\x20forming\x20a\x20worldview\x20or\x20philosophy\x20of\x20life\x20and\x20leaving\x20behind\x20the\x20concerns\x20of\x20adolescence.\x20Ex.\x20Great\x20Expectations.\x0aCACOPHONY\x20(G)<>A\x20harsh,\x20discordant\x20mixture\x20of\x20sounds.\x20Ex.\x20\x22Grate\x20on\x20the\x20scrannel\x20pipes\x20of\x20wretched\x20straw\x22\x20(John\x20Milton)\x0aCHARACTERIZATION\x20(G)<>the\x20process\x20by\x20which\x20the\x20writer\x20reveals\x20the\x20personality\x20of\x20a\x20character.\x0aINDIRECT\x20CHARACTERIZATION\x20(G)<>the\x20author\x20reveals\x20to\x20the\x20reader\x20what\x20the\x20character\x20is\x20like\x20by\x20describing\x20how\x20the\x20character\x20looks\x20and\x20dresses,\x20by\x20letting\x20the\x20reader\x20hear\x20what\x20the\x20character\x20says,\x20by\x20revealing\x20the\x20character\x27s\x20private\x20thoughts\x20and\x20feelings,\x20by\x20revealing\x20the\x20characters\x20effect\x20on\x20other\x20people\x20(showing\x20how\x20other\x20characters\x20feel\x20or\x20behave\x20toward\x20the\x20character),\x20or\x20by\x20showing\x20the\x20character\x20in\x20action.\x20Common\x20in\x20modern\x20literature.\x0aDIRECT\x20CHARACTERIZATION\x20(G)<>the\x20author\x20tells\x20us\x20directly\x20what\x20the\x20character\x20is\x20like:\x20sneaky,\x20generous,\x20mean\x20to\x20pets\x20and\x20so\x20on.\x20Romantic\x20style\x20literature\x20relied\x20more\x20heavily\x20on\x20this\x20form.\x0aSTATIC\x20CHARACTER\x20(G)<>is\x20one\x20who\x20does\x20not\x20change\x20much\x20in\x20the\x20course\x20of\x20a\x20story.\x0aDYNAMIC\x20CHARACTER\x20(G)<>is\x20one\x20who\x20changes\x20in\x20some\x20important\x20way\x20as\x20a\x20result\x20of\x20the\x20story\x27s\x20action.\x0aFLAT\x20CHARACTER\x20(G)<>has\x20only\x20one\x20or\x20two\x20personality\x20traits.\x20They\x20are\x20one\x20dimensional,\x20like\x20a\x20piece\x20of\x20cardboard.\x20They\x20can\x20be\x20summed\x20up\x20in\x20one\x20phrase.\x0aROUND\x20CHARACTER\x20(G)<>has\x20more\x20dimensions\x20to\x20their\x20personalities---they\x20are\x20complex,\x20just\x20as\x20real\x20people\x20are.\x0aCLICHÉ\x20(G)<>is\x20a\x20word\x20or\x20phrase,\x20often\x20a\x20figure\x20of\x20speech,\x20that\x20has\x20become\x20lifeless\x20because\x20of\x20overuse.\x0aCONFLICT\x20(G)<>the\x20struggle\x20between\x20opposing\x20forces\x20or\x20characters\x20in\x20a\x20story.\x0aEXTERNAL\x20CONFLICT\x20(G)<>conflicts\x20can\x20exist\x20between\x20two\x20people,\x20between\x20a\x20person\x20and\x20nature\x20or\x20a\x20machine\x20or\x20between\x20a\x20person\x20a\x20whole\x20society.\x0aINTERNAL\x20CONFLICT\x20(G)<>a\x20conflict\x20can\x20be\x20internal,\x20involving\x20opposing\x20forces\x20within\x20a\x20person\x27s\x20mind..\x0aCONNOTATION\x20(G)<>the\x20associations\x20and\x20emotional\x20overtones\x20that\x20have\x20become\x20attached\x20to\x20a\x20word\x20or\x20phrase,\x20in\x20addition\x20to\x20its\x20strict\x20dictionary\x20definition..\x0aDIALECT\x20(G)<>A\x20more\x20micro\x20level\x20variety\x20of\x20a\x20language\x20(specifically,\x20often\x20a\x20spoken\x20variety)\x20that\x20is\x20characteristic\x20of\x20a\x20particular\x20area,\x20community\x20or\x20group,\x20often\x20with\x20relatively\x20minor\x20differences\x20in\x20vocabulary,\x20style,\x20spelling\x20and\x20pronunciation.\x0aDICTION\x20(G)<>a\x20speaker\x20or\x20writer\x27s\x20choice\x20of\x20words..\x0aDIDACTIC\x20(G)<>form\x20of\x20fiction\x20or\x20nonfiction\x20that\x20teaches\x20a\x20specific\x20lesson\x20or\x20moral\x20or\x20provides\x20a\x20model\x20of\x20correct\x20behavior\x20or\x20thinking..\x0aCOLLOQUIALISM\x20(G)<>a\x20word\x20or\x20phrase\x20in\x20everyday\x20use\x20in\x20conversation\x20and\x20informal\x20writing\x20but\x20is\x20inappropriate\x20for\x20formal\x20situations.\x20EXAMPLE:\x20\x22He\x27s\x20out\x20of\x20his\x20head\x20if\x20he\x20thinks\x20I\x27m\x20gonna\x20go\x20for\x20such\x20a\x20stupid\x20idea..\x0aCOMEDY\x20(G)<>in\x20general,\x20a\x20story\x20that\x20ends\x20with\x20a\x20happy\x20resolution\x20of\x20the\x20conflicts\x20faced\x20by\x20the\x20main\x20character\x20or\x20characters..\x0aEPIGRAPH\x20(G)<>a\x20quotation\x20or\x20aphorism\x20at\x20the\x20beginning\x20of\x20a\x20literary\x20work\x20suggestive\x20of\x20the\x20theme..\x0aEPITHET\x20(G)<>an\x20adjective\x20or\x20adjective\x20phrase\x20applied\x20to\x20a\x20person\x20or\x20thing\x20that\x20is\x20frequently\x20used\x20to\x20emphasize\x20a\x20characteristic\x20quality.\x20\x22Father\x20of\x20our\x20country\x22\x20and\x20\x22the\x20great\x20Emancipator\x22\x20are\x20examples.\x20A\x20Homeric\x20epithet\x20is\x20a\x20compound\x20adjective\x20used\x20with\x20a\x20person\x20or\x20thing:\x20\x22swift-footed\x20Achilles\x22,\x20\x22rosy-fingered\x20dawn.\x22.\x0aESSAY\x20(G)<>a\x20short\x20piece\x20of\x20nonfiction\x20prose\x20in\x20which\x20the\x20writer\x20discusses\x20some\x20aspect\x20of\x20a\x20subject..\x0aARGUMENTATION\x20(G)<>one\x20of\x20the\x20four\x20forms\x20of\x20discourse\x20which\x20uses\x20logic,\x20ethics,\x20and\x20emotional\x20appeals\x20(logos,\x20ethos,\x20pathos)\x20to\x20develop\x20an\x20effective\x20means\x20to\x20convince\x20the\x20reader\x20to\x20think\x20or\x20act\x20in\x20a\x20certain\x20way..\x0aPERSUASION\x20(G)<>relies\x20more\x20on\x20emotional\x20appeals\x20than\x20on\x20facts.\x0aARGUMENT\x20(G)<>form\x20of\x20persuasion\x20that\x20appeals\x20to\x20reason\x20instead\x20of\x20emotion\x20to\x20convince\x20an\x20audience\x20to\x20think\x20or\x20act\x20in\x20a\x20certain\x20way..\x0aCAUSAL\x20RELATIONSHIP\x20(G)<>Form\x20of\x20argumentation\x20in\x20which\x20the\x20writer\x20claims\x20that\x20one\x20thing\x20results\x20from\x20another,\x20often\x20used\x20as\x20part\x20of\x20a\x20logical\x20argument..\x0aDESCRIPTION\x20(G)<>a\x20form\x20of\x20discourse\x20that\x20uses\x20language\x20to\x20create\x20a\x20mood\x20or\x20emotion..\x0aEXPOSITION\x20(G)<>one\x20of\x20the\x20four\x20major\x20forms\x20of\x20discourse,\x20in\x20which\x20something\x20is\x20explained\x20or\x20\x22set\x20forth.\x22.\x0aNARRATIVE\x20(G)<>the\x20form\x20of\x20discourse\x20that\x20tells\x20about\x20a\x20series\x20of\x20events..\x0aEXPLICATION\x20(G)<>act\x20of\x20interpreting\x20or\x20discovering\x20the\x20meaning\x20of\x20a\x20text,\x20usually\x20involves\x20close\x20reading\x20and\x20special\x20attention\x20to\x20figurative\x20language..\x0aEULOGY\x20(G)<>A\x20great\x20praise\x20or\x20commendation,\x20a\x20laudatory\x20speech,\x20often\x20about\x20someone\x20who\x20has\x20died.\x0aEUPHONY\x20(G)<>Agreeableness\x20of\x20sound,\x20pleasing\x20effect\x20to\x20the\x20ear,\x20especially\x20a\x20pleasant\x20sounding\x20or\x20harmonious\x20combination\x20or\x20succession\x20of\x20words\x0aFABLE\x20(G)<>A\x20very\x20short\x20story\x20told\x20in\x20prose\x20or\x20poetry\x20that\x20uses\x20anthropomorphism\x20and,\x20or,\x20personification\x20to\x20teach\x20a\x20practical\x20lesson\x20about\x20how\x20to\x20succeed\x20in\x20life.\x0aFARCE\x20(G)<>a\x20type\x20of\x20comedy\x20in\x20which\x20ridiculous\x20and\x20often\x20stereotyped\x20characters\x20are\x20involved\x20in\x20silly,\x20far-fetched\x20situations.\x0aFIGURATIVE\x20LANGUAGE\x20(G)<>Words\x20which\x20are\x20inaccurate\x20if\x20interpreted\x20literally,\x20but\x20are\x20used\x20to\x20describe.\x20Similes\x20and\x20metaphors\x20are\x20common\x20forms\x0aFLASHBACK\x20(G)<>a\x20scene\x20that\x20interrupts\x20the\x20normal\x20chronological\x20sequence\x20of\x20events\x20in\x20a\x20story\x20to\x20depict\x20something\x20that\x20happened\x20at\x20an\x20earlier\x20time.\x0aFOIL\x20(G)<>A\x20character\x20who\x20acts\x20as\x20contrast\x20to\x20another\x20character.\x20Often\x20a\x20funny\x20side\x20kick\x20to\x20the\x20dashing\x20hero,\x20or\x20a\x20villain\x20contrasting\x20the\x20hero\x0aFORESHADOWING\x20(G)<>the\x20use\x20of\x20hints\x20and\x20clues\x20to\x20suggest\x20what\x20will\x20happen\x20later\x20in\x20a\x20plot.\x0aHUBRIS\x20(G)<>A\x20negative\x20term\x20that\x20implies\x20both\x20arrogant,\x20excessive\x20self-pride\x20or\x20self-confidence,\x20and\x20a\x20lack\x20of\x20some\x20important\x20perception\x20or\x20insight\x20due\x20to\x20pride\x20in\x20one\x27s\x20abilities.\x20This\x20overwhelming\x20pride\x20inevitably\x20leads\x20to\x20a\x20downfall.\x0aHYPERBOLE\x20(G)<>a\x20figure\x20of\x20speech\x20that\x20uses\x20an\x20incredible\x20exaggeration\x20or\x20overstatement,\x20for\x20effect.\x20\x22If\x20I\x20told\x20you\x20once,\x20I\x27ve\x20told\x20you\x20a\x20million\x20times....\x22\x0aIMAGERY\x20(G)<>the\x20use\x20of\x20language\x20to\x20evoke\x20a\x20picture\x20or\x20a\x20concrete\x20sensation\x20of\x20a\x20person\x20,\x20a\x20thing,\x20a\x20place,\x20or\x20an\x20experience.\x0aIRONY\x20(G)<>a\x20discrepancy\x20between\x20appearances\x20and\x20reality.\x0aVERBAL\x20IRONY\x20(G)<>occurs\x20when\x20someone\x20says\x20one\x20thing\x20but\x20really\x20means\x20something\x20else.\x0aSITUATIONAL\x20IRONY\x20(G)<>takes\x20place\x20when\x20there\x20is\x20a\x20discrepancy\x20between\x20what\x20is\x20expected\x20to\x20happen,\x20or\x20what\x20would\x20be\x20appropriate\x20to\x20happen,\x20and\x20what\x20really\x20does\x20happen.\x0aDRAMATIC\x20IRONY\x20(G)<>is\x20so\x20called\x20because\x20it\x20is\x20often\x20used\x20on\x20stage.\x20A\x20character\x20in\x20the\x20play\x20or\x20story\x20thinks\x20one\x20thing\x20is\x20true,\x20but\x20the\x20audience\x20or\x20reader\x20knows\x20better.\x0aLITOTES\x20(G)<>is\x20a\x20form\x20of\x20understatement\x20in\x20which\x20the\x20positive\x20form\x20is\x20emphasized\x20through\x20the\x20negation\x20of\x20a\x20negative\x20form:\x20Hawthorne---\x20\x22...the\x20wearers\x20of\x20petticoat\x20and\x20farthingale...stepping\x20forth\x20into\x20the\x20public\x20ways,\x20and\x20wedging\x20their\x20not\x20unsubstantial\x20persons,\x20if\x20occasion\x20were,\x20into\x20the\x20throng...\x22\x0aLOCAL\x20COLOR\x20(G)<>a\x20term\x20applied\x20to\x20fiction\x20or\x20poetry\x20which\x20tends\x20to\x20place\x20special\x20emphasis\x20on\x20a\x20particular\x20setting,\x20including\x20its\x20customs,\x20clothing,\x20dialect\x20and\x20landscape.\x0aMETAPHOR\x20(G)<>a\x20figure\x20of\x20speech\x20that\x20makes\x20a\x20comparison\x20between\x20two\x20unlike\x20things\x20without\x20the\x20use\x20of\x20such\x20specific\x20words\x20of\x20comparison\x20as\x20like,\x20as,\x20than,\x20or\x20resembles.\x0aIMPLIED\x20METAPHOR\x20(G)<>does\x20not\x20state\x20explicitly\x20the\x20two\x20terms\x20of\x20the\x20comparison:\x20\x22I\x20like\x20to\x20see\x20it\x20lap\x20the\x20miles\x22\x20is\x20an\x20implied\x20metaphor\x20in\x20which\x20the\x20verb\x20lap\x20implies\x20a\x20comparison\x20between\x20\x22it\x22\x20and\x20some\x20animal\x20that\x20\x22laps\x22\x20up\x20water.\x0aEXTENDED\x20METAPHOR\x20(G)<>is\x20a\x20metaphor\x20that\x20is\x20extended\x20or\x20developed\x20as\x20far\x20as\x20the\x20writer\x20wants\x20to\x20take\x20it.\x20(conceit\x20if\x20it\x20is\x20quite\x20elaborate).\x0aDEAD\x20METAPHOR\x20(G)<>is\x20a\x20metaphor\x20that\x20has\x20been\x20used\x20so\x20often\x20that\x20the\x20comparison\x20is\x20no\x20longer\x20vivid:\x20\x22The\x20head\x20of\x20the\x20house\x22,\x20\x22the\x20seat\x20of\x20the\x20government\x22,\x20\x22a\x20knotty\x20problem\x22\x20are\x20all\x20dead\x20metaphors.\x20Could\x20also\x20be\x20classified\x20as\x20a\x20cliché.\x0aMIXED\x20METAPHOR\x20(G)<>is\x20a\x20metaphor\x20that\x20has\x20gotten\x20out\x20of\x20control\x20and\x20mixes\x20its\x20terms\x20so\x20that\x20they\x20are\x20visually\x20or\x20imaginatively\x20incompatible.\x20\x22The\x20President\x20is\x20a\x20lame\x20duck\x20who\x20is\x20running\x20out\x20of\x20gas.\x22\x0aMETONYMY\x20(G)<>a\x20figure\x20of\x20speech\x20in\x20which\x20a\x20person,\x20place,\x20or\x20thing,\x20is\x20referred\x20to\x20by\x20something\x20closely\x20associated\x20with\x20it.\x20\x22We\x20requested\x20from\x20the\x20crown\x20support\x20for\x20our\x20petition.\x22\x20The\x20crown\x20is\x20used\x20to\x20represent\x20the\x20monarch.\x0aMOOD\x20(G)<>An\x20atmosphere\x20created\x20by\x20a\x20writer\x27s\x20diction\x20and\x20the\x20details\x20selected.\x0aMOTIF\x20(G)<>a\x20recurring\x20image,\x20word,\x20phrase,\x20action,\x20idea,\x20object,\x20or\x20situation\x20used\x20throughout\x20a\x20work\x20(or\x20in\x20several\x20works\x20by\x20one\x20author),\x20unifying\x20the\x20work\x20by\x20tying\x20the\x20current\x20situation\x20to\x20previous\x20ones,\x20or\x20new\x20ideas\x20to\x20the\x20theme.\x20EXAMPLE\x20Kurt\x20Vonnegut\x20uses\x20\x22So\x20it\x20goes\x22\x20throughout\x20Slaughterhouse-Five\x20to\x20remind\x20the\x20reader\x20of\x20the\x20senselessness\x20of\x20death.\x0aMOTIVATION\x20(G)<>the\x20reasons\x20for\x20a\x20character\x27s\x20behavior.\x0aONOMATOPOEIA\x20(G)<>the\x20use\x20of\x20words\x20whose\x20sounds\x20echo\x20their\x20sense.\x20\x22Pop.\x22\x20\x22Zap.\x22\x0aOXYMORON\x20(G)<>a\x20figure\x20of\x20speech\x20that\x20combines\x20opposite\x20or\x20contradictory\x20terms\x20in\x20a\x20brief\x20phrase.\x20\x22Jumbo\x20shrimp.\x22\x20\x22Pretty\x20ugly.\x22\x20\x22Bitter-sweet\x22\x0aPARABLE\x20(G)<>A\x20relatively\x20short\x20story\x20that\x20teaches\x20a\x20moral,\x20or\x20lesson\x20without\x20the\x20use\x20of\x20anthropomorphism\x20and,\x20or,\x20personification\x20about\x20how\x20to\x20lead\x20a\x20good\x20life.\x0aPARADOX\x20(G)<>a\x20statement\x20that\x20appears\x20self-contradictory,\x20but\x20that\x20reveals\x20a\x20kind\x20of\x20truth.\x0aPARODY\x20(G)<>a\x20work\x20that\x20makes\x20fun\x20of\x20another\x20work\x20by\x20imitating\x20some\x20aspect\x20of\x20the\x20writer\x27s\x20style.\x0aPERSONIFICATION\x20(G)<>a\x20figure\x20of\x20speech\x20in\x20which\x20human\x20specific\x20characteristics\x20are\x20attributed\x20to\x20inanimate\x20objects.\x0aPLOT\x20(G)<>the\x20series\x20of\x20related\x20events\x20in\x20a\x20story\x20or\x20play,\x20sometimes\x20called\x20the\x20storyline.\x0aEXPOSITION\x20(G)<>introduces\x20characters,\x20situation,\x20and\x20setting\x0aRISING\x20ACTION\x20(G)<>complications\x20in\x20conflict\x20and\x20situations\x20(may\x20introduce\x20new\x20ones\x20as\x20well)\x0aCLIMAX\x20(G)<>that\x20point\x20in\x20a\x20plot\x20that\x20creates\x20the\x20greatest\x20intensity,\x20suspense,\x20or\x20interest.\x20Also\x20called\x20\x22turning\x20point\x22\x0aFALLING\x20ACTION\x20(G)<>the\x20point\x20in\x20the\x20plot\x20where\x20the\x20conflicts\x20begin\x20to\x20resolve\x0aRESOLUTION(G)<>the\x20conclusion\x20of\x20a\x20story,\x20when\x20all\x20or\x20most\x20of\x20the\x20conflicts\x20have\x20been\x20settled,\x20often\x20called\x20the\x20denouement.\x0aPOINT\x20OF\x20VIEW\x20(G)<>the\x20vantage\x20point\x20from\x20which\x20the\x20writer\x20tells\x20the\x20story.\x0aFIRST\x20PERSON\x20POINT\x20OF\x20VIEW\x20(G)<>one\x20of\x20the\x20characters\x20tells\x20the\x20story.\x20(typically\x20uses\x20first\x20person\x20pronouns:\x20I,\x20me,\x20my,\x20us,\x20we,...)\x0aSECOND\x20PERSON\x20POINT\x20OF\x20VIEW\x20(G)<>the\x20narrator\x20instructs\x20the\x20reader\x20as\x20if\x20they\x20are\x20telling\x20the\x20reader\x20what\x20they\x20are\x20to\x20experience.\x20(typically\x20uses\x202nd\x20person\x20pronoun:\x20you)\x0aTHIRD\x20PERSON\x20POINT\x20OF\x20VIEW\x20(G)<>an\x20unknown\x20narrator,\x20tells\x20the\x20story,\x20but\x20this\x20narrator\x20zooms\x20in\x20to\x20focus\x20on\x20the\x20thoughts\x20and\x20feelings\x20of\x20only\x20one\x20character.\x20(typically\x20uses\x203rd\x20person\x20pronouns:\x20he,\x20she,\x20it,\x20they,\x20them...)\x0aOMNISCIENT\x20POINT\x20OF\x20VIEW\x20(G)<>an\x20omniscient\x20or\x20all-knowing\x20narrator\x20tells\x20the\x20story,\x20also\x20using\x20the\x20third\x20person\x20pronouns.\x20This\x20narrator,\x20instead\x20of\x20focusing\x20on\x20one\x20character\x20only,\x20often\x20tells\x20us\x20everything\x20about\x20many\x20characters.\x0aOBJECTIVE\x20POINT\x20OF\x20VIEW\x20(G)<>a\x20narrator\x20who\x20is\x20totally\x20impersonal\x20and\x20objective\x20tells\x20the\x20story,\x20with\x20no\x20comment\x20on\x20any\x20characters\x20or\x20events.\x0aPROTAGONIST\x20(G)<>the\x20central\x20character\x20in\x20a\x20story,\x20the\x20one\x20who\x20initiates\x20or\x20drives\x20the\x20action.\x20Usually\x20the\x20hero\x20or\x20anti-hero,\x20in\x20a\x20tragic\x20hero,\x20like\x20John\x20Proctor\x20of\x20The\x20Crucible,\x20there\x20is\x20always\x20a\x20hamartia,\x20or\x20tragic\x20flaw\x20in\x20his\x20character\x20which\x20will\x20lead\x20to\x20his\x20downfall.\x0aPUN\x20(G)<>a\x20\x22play\x20on\x20words\x22\x20based\x20on\x20the\x20multiple\x20meanings\x20of\x20a\x20single\x20word\x20or\x20on\x20words\x20that\x20sound\x20alike\x20but\x20mean\x20different\x20things.\x0aRHETORIC\x20(G)<>Art\x20of\x20effective\x20communication,\x20especially\x20persuasive\x20discourse.\x0aRHETORICAL\x20QUESTION\x20(G)<>a\x20question\x20asked\x20for\x20an\x20effect,\x20and\x20not\x20actually\x20requiring\x20an\x20answer.\x0aROMANCE\x20(G)<>in\x20general,\x20a\x20story\x20in\x20which\x20an\x20idealized\x20hero\x20or\x20heroine\x20undertakes\x20a\x20quest\x20and\x20is\x20successful.\x0aSATIRE\x20(G)<>a\x20type\x20of\x20writing\x20that\x20ridicules\x20the\x20shortcomings\x20of\x20people\x20or\x20institutions\x20in\x20an\x20attempt\x20to\x20bring\x20about\x20a\x20change.\x0aSIBILANCE\x20(G)<>characterized\x20by\x20a\x20hissing\x20sound\x20noting\x20sounds\x20like\x20those\x20spelled\x20with\x20s\x20in\x20this\x0aSIMILE\x20(G)<>a\x20figure\x20of\x20speech\x20that\x20makes\x20an\x20explicit\x20comparison\x20between\x20two\x20unlike\x20things,\x20using\x20words\x20such\x20as\x20like,\x20as\x20,\x20than,\x20or\x20resembles.\x0aSTEREOTYPE\x20(G)<>a\x20fixed\x20idea\x20or\x20conception\x20of\x20a\x20character\x20or\x20an\x20idea\x20which\x20does\x20not\x20allow\x20for\x20any\x20individuality,\x20often\x20based\x20on\x20religious,\x20social,\x20or\x20racial\x20prejudices.\x0aSTREAM\x20OF\x20CONSCIOUSNESS\x20(G)<>a\x20style\x20of\x20writing\x20that\x20portrays\x20the\x20inner\x20(often\x20chaotic)\x20workings\x20of\x20a\x20character\x27s\x20mind.\x0aSTYLE\x20(G)<>the\x20distinctive\x20way\x20in\x20which\x20a\x20writer\x20uses\x20language:\x20a\x20writer\x27s\x20distinctive\x20use\x20of\x20diction,\x20tone,\x20and\x20syntax.\x0aSUSPENSE\x20(G)<>a\x20feeling\x20of\x20uncertainty\x20and\x20curiosity\x20about\x20what\x20will\x20happen\x20next\x20in\x20a\x20story.\x0aSYMBOL\x20(G)<>a\x20person,\x20place,\x20thing,\x20or\x20event\x20that\x20has\x20meaning\x20in\x20itself\x20and\x20that\x20also\x20stands\x20for\x20something\x20more\x20than\x20itself\x0aSYNECDOCHE\x20(G)<>a\x20figure\x20of\x20speech\x20in\x20which\x20a\x20part\x20represents\x20the\x20whole.\x20\x22If\x20you\x20don\x27t\x20drive\x20properly,\x20you\x20will\x20lose\x20your\x20wheels.\x22\x20The\x20wheels\x20represent\x20the\x20entire\x20car.\x0aTALL\x20TALE\x20(G)<>an\x20outrageously\x20exaggerated,\x20humorous\x20story\x20that\x20is\x20obviously\x20unbelievable.\x0aTHEME\x20(G)<>the\x20insight\x20about\x20human\x20life\x20that\x20is\x20revealed\x20in\x20a\x20literary\x20work.\x0aTONE\x20(G)<>the\x20attitude\x20a\x20writer\x20takes\x20toward\x20the\x20subject\x20of\x20a\x20work,\x20the\x20characters\x20in\x20it,\x20or\x20the\x20audience,\x20revealed\x20through\x20diction,\x20figurative\x20language,\x20and\x20organization.\x0aTRAGEDY\x20(G)<>in\x20general,\x20a\x20story\x20in\x20which\x20a\x20heroic\x20character\x20either\x20dies\x20or\x20comes\x20to\x20some\x20other\x20unhappy\x20end.\x0aTRAGIC\x20FLAW\x20(G)<>A\x20fatal\x20weakness\x20or\x20ignorance\x20in\x20a\x20character\x20that\x20brings\x20them\x20to\x20their\x20end.\x20Also\x20know\x20as\x20HAMARTIA.\x0aUNDERSTATEMENT\x20(G)<>a\x20statement\x20that\x20says\x20less\x20than\x20what\x20is\x20meant.Example:\x20During\x20the\x20second\x20war\x20with\x20Iraq,\x20American\x20troops\x20complained\x20of\x20a\x20fierce\x20sand\x20storm\x20that\x20made\x20even\x20the\x20night-vision\x20equipment\x20useless.\x20A\x20British\x20commando\x20commented\x20about\x20the\x20storm:\x20\x22It\x27s\x20a\x20bit\x20breezy.\x22\x0aUNRELIABLE\x20NARRATOR\x20(G)<>A\x20narrator\x20who,\x20intentionally\x20or\x20unintentionally,\x20relates\x20events\x20of\x20a\x20story\x20is\x20a\x20subjective\x20and\x20distorted\x20manner.\x20The\x20author\x20usually\x20provides\x20an\x20indication\x20early\x20in\x20the\x20story\x20that\x20the\x20narrator\x20is\x20not\x20to\x20be\x20completely\x20trusted.\x0aVERNACULAR\x20(G)<>The\x20macro\x20level\x20language\x20spoken\x20by\x20the\x20people\x20who\x20live\x20in\x20a\x20particular\x20locality.\x20The\x20vernacular\x20of\x20the\x20United\x20States\x20is\x20English.\x0aALLITERATION\x20(S)<>repetition\x20of\x20the\x20same\x20or\x20similar\x20consonant\x20sounds\x20in\x20words\x20that\x20are\x20close\x20together.\x0aANAPHORA\x20(S)<>Repetition\x20of\x20a\x20word,\x20phrase,\x20or\x20clause\x20at\x20the\x20beginning\x20of\x20two\x20or\x20more\x20sentences\x20in\x20a\x20row.\x20This\x20is\x20a\x20deliberate\x20form\x20of\x20repetition\x20and\x20helps\x20make\x20the\x20writer\x27s\x20point\x20more\x20coherent\x0aANASTROPHE\x20(S)<>Inversion\x20of\x20the\x20usual,\x20normal,\x20or\x20logical\x20order\x20of\x20the\x20parts\x20of\x20a\x20sentence.\x20Purpose\x20is\x20rhythm\x20or\x20emphasis\x20or\x20euphony.\x20It\x20is\x20a\x20fancy\x20word\x20for\x20inversion.\x0aANTIMETABOLE\x20(S)<>Repetition\x20of\x20words\x20in\x20successive\x20clauses\x20in\x20reverse\x20grammatical\x20order.\x0aANTITHESIS\x20(S)<>Balancing\x20words,\x20phrases,\x20or\x20ideas\x20that\x20are\x20strongly\x20contrasted,\x20often\x20by\x20means\x20of\x20grammatical\x20structure.\x0aAPPOSITION\x20(S)<>Placing\x20in\x20immediately\x20succeeding\x20order\x20of\x20two\x20or\x20more\x20coordinate\x20elements,\x20the\x20latter\x20of\x20which\x20is\x20an\x20explanation,\x20qualification,\x20or\x20modification\x20of\x20the\x20first\x20(often\x20set\x20off\x20by\x20a\x20colon).\x20Paine:\x20\x22These\x20are\x20the\x20times\x20that\x20try\x20men\x27s\x20souls:\x20The\x20summer\x20soldier\x20and\x20the\x20sunshine\x20patriot\x20will\x20in\x20this\x20crisis,\x20shrink\x20from\x20the\x20service\x20of\x20his\x20country,\x20but\x20he\x20that\x20stands\x20it\x20Now,\x20deserves\x20the\x20love\x20and\x20thanks\x20of\x20man\x20and\x20woman.\x22\x0aBALANCE\x20(S)<>Constructing\x20a\x20sentence\x20so\x20that\x20both\x20halves\x20are\x20about\x20the\x20same\x20length\x20and\x20importance.\x20Sentences\x20can\x20be\x20unbalanced\x20to\x20serve\x20a\x20special\x20effect\x20as\x20well.\x0aEPANALEPSIS\x20(S)<>device\x20of\x20repetition\x20in\x20which\x20the\x20same\x20expression\x20(single\x20word\x20or\x20phrase)\x20is\x20repeated\x20both\x20at\x20the\x20beginning\x20and\x20at\x20the\x20end\x20of\x20the\x20line,\x20clause,\x20or\x20sentence.\x20EXAMPLE\x20Voltaire:\x20\x22Common\x20sense\x20is\x20not\x20so\x20common.\x22\x0aEPISTROPHE\x20(S)<>Device\x20of\x20repetition\x20in\x20which\x20the\x20same\x20expression\x20(single\x20word\x20or\x20phrase)\x20is\x20repeated\x20at\x20the\x20end\x20of\x20two\x20or\x20more\x20lines,\x20clauses,\x20or\x20sentences\x20(it\x20is\x20the\x20opposite\x20of\x20anaphora).\x0aHYPOTACTIC\x20SENTENCE\x20(S)<>sentence\x20marked\x20by\x20the\x20use\x20of\x20connecting\x20words\x20between\x20clauses\x20or\x20sentences,\x20explicitly\x20showing\x20the\x20logical\x20or\x20other\x20relationships\x20between\x20them.\x20(Use\x20of\x20such\x20syntactic\x20subordination\x20of\x20just\x20one\x20clause\x20to\x20another\x20is\x20known\x20as\x20hypotaxis).\x20I\x20am\x20tired\x20because\x20it\x20is\x20hot.\x0aINVERSION\x20(S)<>the\x20reversal\x20of\x20the\x20normal\x20word\x20order\x20in\x20a\x20sentence\x20or\x20phrase.\x0aJUXTAPOSITION\x20(S)<>poetic\x20and\x20rhetorical\x20device\x20in\x20which\x20normally\x20unassociated\x20ideas,\x20words,\x20or\x20phrases\x20are\x20placed\x20next\x20to\x20one\x20another,\x20creating\x20an\x20effect\x20of\x20surprise\x20and\x20wit.\x0aLOOSE\x20SENTENCE\x20(S)<>one\x20in\x20which\x20the\x20main\x20clause\x20comes\x20first,\x20followed\x20by\x20further\x20dependent\x20grammatical\x20units.\x20See\x20periodic\x20sentence.\x0aEXAMPLE\x20Hawthorne:\x20\x22Hester\x20gazed\x20after\x20him\x20a\x20little\x20while,\x20looking\x20with\x20a\x20half-fantastic\x20curiosity\x20to\x20see\x20whether\x20the\x20tender\x20grass\x20of\x20early\x20spring\x20would\x20not\x20be\x20blighted\x20beneath\x20him,\x20and\x20show\x20the\x20wavering\x20track\x20of\x20this\x20footsteps,\x20sere\x20and\x20brown,\x20across\x20its\x20cheerful\x20verdure.\x22\x0aPARALLEL\x20STRUCTURE\x20(S)<>(parallelism)\x20the\x20repetition\x20of\x20words\x20or\x20phrases\x20that\x20have\x20similar\x20grammatical\x20structures.\x0aPARATACTIC\x20SENTENCE\x20(S)<>simply\x20juxtaposes\x20clauses\x20or\x20sentences.\x20I\x20am\x20tired:\x20it\x20is\x20hot.\x0aPERIODIC\x20SENTENCE\x20(S)<>sentence\x20that\x20places\x20the\x20main\x20idea\x20or\x20central\x20complete\x20thought\x20at\x20the\x20end\x20of\x20the\x20sentence,\x20after\x20all\x20introductory\x20elements.\x0aPOLYSYNDETON\x20(S)<>sentence\x20which\x20uses\x20a\x20conjunction\x20with\x20NO\x20commas\x20to\x20separate\x20the\x20items\x20in\x20a\x20series.\x20Instead\x20of\x20X,\x20Y,\x20and\x20Z...\x20Polysyndeton\x20results\x20in\x20X\x20and\x20Y\x20and\x20Z...\x0aSYNTACTIC\x20FLUENCY\x20(S)<>Ability\x20to\x20create\x20a\x20variety\x20of\x20sentence\x20structures,\x20appropriately\x20complex\x20and/or\x20simple\x20and\x20varied\x20in\x20length.\x0aSYNTACTIC\x20PERMUTATION(S)<>Sentence\x20structures\x20that\x20are\x20extraordinarily\x20complex\x20and\x20involved.\x20Often\x20difficult\x20for\x20a\x20reader\x20to\x20follow.\x0aSYNTAX\x20(S)<>The\x20manner\x20in\x20which\x20words\x20are\x20arranged\x20to\x20form\x20sentences\x0aTELEGRAPHIC\x20SENTENCE\x20(S)<>A\x20sentence\x20shorter\x20than\x20five\x20words\x20in\x20length.\x0aTRICOLON\x20(S)<>Sentence\x20of\x20three\x20parts\x20of\x20equal\x20importance\x20and\x20length,\x20usually\x20three\x20independent\x20clauses.\x0aUNITY\x20(S)<>Unified\x20parts\x20of\x20the\x20writing\x20are\x20related\x20to\x20one\x20central\x20idea\x20or\x20organizing\x20principle.\x20Unity\x20is\x20dependent\x20upon\x20coherence\x0aACT\x20(D)<>The\x20major\x20structural\x20division\x20in\x20a\x20drama.\x20They\x20are\x20divided\x20into\x20scenes.\x20They\x20may\x20contain\x20shifts\x20in\x20time\x20and\x20place.\x0aASIDE\x20(D)<>In\x20drama,\x20a\x20few\x20words\x20or\x20short\x20passage\x20spoke\x20in\x20an\x20undertone\x20or\x20to\x20the\x20audience.\x20By\x20convention,\x20other\x20characters\x20onstage\x20are\x20deaf\x20to\x20it.\x0aCATHARSIS\x20(D)<>The\x20purging\x20of\x20the\x20feelings\x20of\x20pity\x20and\x20fear.\x20According\x20to\x20Aristotle\x20the\x20audience\x20should\x20experiences\x20catharsis\x20at\x20the\x20end\x20of\x20a\x20tragedy.\x0aCHORUS\x20(D)<>In\x20a\x20classical\x20drama,\x20this\x20is\x20a\x20group\x20of\x20characters\x20placed\x20on\x20stage\x20to\x20comment\x20upon\x20the\x20action\x20and\x20express\x20traditional\x20wisdom.\x20It\x20is\x20employed\x20most\x20often\x20in\x20traditional\x20Greek\x20drama.\x0aFOURTH\x20WALL\x20(D)<>The\x20imaginary\x20wall\x20that\x20separates\x20the\x20spectator/audience\x20from\x20the\x20action\x20taking\x20place\x20on\x20stage.\x20In\x20a\x20traditional\x20theatre\x20setting\x20(as\x20opposed\x20to\x20a\x20theatre\x20in\x20the\x20round)\x20this\x20imaginary\x20wall\x20has\x20been\x20removed\x20so\x20that\x20the\x20spectator\x20can\x20\x22peep\x22\x20into\x20the\x20fictional\x20world\x20and\x20see\x20what\x20is\x20going\x20on.\x20If\x20the\x20audience\x20is\x20addressed\x20directly,\x20this\x20is\x20referred\x20to\x20as\x20\x22breaking\x20the\x20________.\x22\x0aMONOLOGUE\x20(D)<>A\x20speech\x20by\x20a\x20single\x20character\x20without\x20another\x20character\x27s\x20response.\x20The\x20character\x20however,\x20is\x20speaking\x20to\x20someone\x20else\x20or\x20even\x20a\x20group\x20of\x20people.\x0aSCENE\x20(D)<>A\x20traditional\x20segment\x20in\x20a\x20play.\x20They\x20are\x20used\x20to\x20indicate\x20(1)\x20a\x20change\x20in\x20time\x20(2)\x20a\x20change\x20in\x20location,\x20(3)\x20provides\x20a\x20jump\x20from\x20one\x20subplot\x20to\x20another,\x20(4)\x20introduces\x20new\x20characters\x20(5)\x20rearrange\x20the\x20actors\x20on\x20the\x20stage.\x20Traditionally\x20plays\x20are\x20composed\x20of\x20acts,\x20broken\x20down\x20into\x20these.\x0aSOLILOQUY\x20(D)<>a\x20long\x20speech\x20made\x20by\x20a\x20character\x20in\x20a\x20play\x20while\x20no\x20other\x20characters\x20are\x20on\x20stage.\x0aSTAGE\x20DIRECTION\x20(D)<>A\x20playwright\x27s\x20descriptive\x20or\x20interpretive\x20comments\x20that\x20provide\x20readers\x20(as\x20well\x20as\x20actors\x20and\x20directors)\x20with\x20information\x20about\x20the\x20dialogue,\x20setting,\x20and\x20action\x20of\x20a\x20play.\x20Modern\x20playwrights\x20tend\x20to\x20include\x20substantial\x20amounts\x20of\x20these,\x20while\x20earlier\x20playwrights\x20typically\x20use\x20them\x20more\x20sparsely,\x20implicitly,\x20or\x20not\x20at\x20all.\x0aTHEATER\x20OF\x20THE\x20ABSURD\x20(D)<>A\x20postwar\x20European\x20genre\x20of\x20drama\x20that\x20depicts\x20the\x20grotesque\x20common\x20plight\x20of\x20human\x20beings\x20thrown\x20by\x20accident\x20into\x20an\x20irrational\x20and\x20meaningless\x20world.\x20Ex.\x20Waiting\x20for\x20Godot\x0aCAESURA\x20(P)<>A\x20pause\x20within\x20a\x20line\x20of\x20poetry.\x20They\x20usually\x20appear\x20in\x20the\x20middle\x20of\x20a\x20line\x20with\x20the\x20use\x20of\x20a\x20comma\x20or\x20period.\x0aCHIASMUS\x20(P)<>In\x20poetry,\x20a\x20type\x20of\x20rhetorical\x20balance\x20in\x20which\x20the\x20second\x20part\x20is\x20syntactically\x20balanced\x20against\x20the\x20first,\x20but\x20with\x20the\x20parts\x20reversed.\x20EXAMPLE\x20Coleridge:\x20\x22Flowers\x20are\x20lovely,\x20love\x20is\x20flowerlike.\x22\x20In\x20prose\x20this\x20is\x20called\x20antimetabole.\x0aCONCEIT\x20(P)<>an\x20elaborate\x20metaphor\x20that\x20compares\x20two\x20things\x20that\x20are\x20startlingly\x20different.\x20Often\x20an\x20extended\x20metaphor.\x20A\x20twentieth\x20century\x20term\x20used\x20to\x20describe\x20poetry\x20that\x20uses\x20intimate\x20material\x20from\x20the\x20poet\x27s\x20life.\x0aCONFESSIONAL\x20POETRY\x20(P)<>a\x20twentieth\x20century\x20term\x20used\x20to\x20describe\x20poetry\x20that\x20uses\x20intimate\x20material\x20from\x20the\x20poet\x27s\x20life.\x0aCLOSED\x20COUPLET\x20(P)<>Two\x20rhymed\x20lines\x20that\x20contain\x20and\x20independent\x20and\x20complete\x20thought\x20or\x20statement.\x20EX.\x20\x22I\x20should\x20have\x20been\x20a\x20pair\x20of\x20ragged\x20claws/\x20Scuttling\x20across\x20the\x20floors\x20of\x20silent\x20seas.\x22\x20(Eliot)\x0aCOUPLET\x20(P)<>two\x20consecutive\x20rhyming\x20lines\x20of\x20poetry.\x20EX.\x20\x22This\x20day,\x20whate\x27er\x20the\x20fates\x20decree./\x20Shall\x20still\x20be\x20kept\x20with\x20joy\x20by\x20me...\x22\x20(Swift)\x0aDRAMATIC\x20MONOLOGUE\x20(P)<>A\x20poem\x20written\x20as\x20a\x20speech\x20made\x20by\x20a\x20character.\x20Typically\x20the\x20persona\x20will\x20reveal\x20private\x20desires,\x20weaknesses,\x20crimes,\x20or\x20maybe\x20in\x20wrongdoings.\x0aELEGY\x20(P)<>a\x20poem\x20of\x20mourning,\x20usually\x20about\x20someone\x20who\x20has\x20died.\x0aEND\x20STOPPED\x20LINE\x20(P)<>A\x20line\x20of\x20poetry\x20or\x20verse\x20that\x20ends\x20in\x20a\x20full\x20pause\x20usually\x20indicated\x20by\x20a\x20mark\x20of\x20punctuation.\x0aENJAMBMENT\x20(P)<>A\x20line\x20of\x20poetry\x20that\x20does\x20not\x20end\x20will\x20a\x20full\x20pause\x20(punctuation)\x20which\x20should\x20then\x20be\x20read\x20in\x20conjunction\x20with\x20the\x20next\x20line\x20of\x20poetry\x20without\x20pausing.\x0aEPIC\x20(P)<>a\x20long\x20narrative\x20poem,\x20written\x20in\x20heightened\x20language\x20,\x20which\x20recounts\x20the\x20deeds\x20of\x20a\x20heroic\x20character\x20who\x20embodies\x20the\x20values\x20of\x20a\x20particular\x20society.\x0aFREE\x20VERSE\x20(P)<>poetry\x20that\x20does\x20not\x20conform\x20to\x20a\x20regular\x20meter\x20or\x20rhyme\x20scheme.\x0aLYRIC\x20POEM\x20(P)<>a\x20poem\x20that\x20does\x20not\x20tell\x20a\x20story\x20but\x20expresses\x20the\x20personal\x20feelings\x20or\x20thoughts\x20of\x20the\x20speaker.\x20A\x20ballad\x20tells\x20a\x20story.\x0aMETER\x20(P)<>The\x20count\x20of\x20rhythmic\x20patterns\x20of\x20stressed\x20and\x20unstressed\x20syllables\x20in\x20poetry.\x20A\x20poem\x20that\x20does\x20not\x20contain\x20this\x20is\x20said\x20to\x20be\x20blank\x20verse.\x20This\x20is\x20combined\x20with\x20metrical\x20feet.\x0aDimeter\x20(P)<>A\x20meter\x20consisting\x20of\x20two\x20metrical\x20feet\x20per\x20line\x0aHeptameter\x20(P)<>A\x20meter\x20consisting\x20of\x20seven\x20metrical\x20feet\x20per\x20line\x0aHexameter\x20(P)<>A\x20meter\x20consisting\x20of\x20six\x20metrical\x20feet\x20per\x20line\x0aMonometer\x20(P)<>A\x20meter\x20consisting\x20of\x20one\x20metrical\x20foot\x20per\x20line\x0aOctameter\x20(P)<>A\x20meter\x20consisting\x20of\x20eight\x20metrical\x20feet\x20per\x20line\x0aPentameter\x20(P)<>A\x20meter\x20consisting\x20of\x20five\x20metrical\x20feet\x20per\x20line\x0aTetrameter\x20(P)<>A\x20meter\x20consisting\x20of\x20four\x20metrical\x20feet\x20per\x20line\x0aTrimeter\x20(P)<>A\x20meter\x20consisting\x20of\x20three\x20metrical\x20feet\x20per\x20line\x0aMETRICAL\x20FOOT\x20(P)<>The\x20basic\x20unit\x20of\x20measurement\x20of\x20metrical\x20poetry\x20that\x20counts\x20the\x20stressed\x20and\x20unstressed\x20syllables\x20in\x20a\x20poem.\x20This\x20is\x20combined\x20with\x20meter.\x0aAnapest\x20(P)<>a\x20metrical\x20foot\x20that\x20contains\x20two\x20unstressed\x20syllables\x20followed\x20by\x20a\x20stressed\x20syllable-\x20\x22on\x20a\x20boat\x22\x27\x0aDactyl\x20(P)<>a\x20metrical\x20foot\x20that\x20contains\x20one\x20stressed\x20syllable\x20followed\x20by\x20two\x20unstressed\x20syllables-\x20\x22Bat-ter-y\x0aIamb\x20(P)<>a\x20metrical\x20foot\x20that\x20contains\x20one\x20unstressed\x20syllable\x20followed\x20by\x20one\x20stressed\x20syllable-\x20\x22ex-it\x20and\x20be-long\x22\x0aSpondee\x20(P)<>a\x20metrical\x20foot\x20that\x20contains\x20two\x20stressed\x20syllables\x20and\x20is\x20used\x20generally\x20for\x20emphasis-\x20\x22good\x20men\x22\x0aTrochee\x20(P)<>a\x20metrical\x20foot\x20that\x20contains\x20one\x20stressed\x20syllable\x20followed\x20by\x20an\x20unstressed\x20syllable-\x20\x22sum-mer\x20and\x20chor-us\x22\x0aQUATRAIN\x20(P)<>four\x20lines\x20of\x20a\x20poem\x20that\x20can\x20be\x20considered\x20as\x20a\x20stanza\x20or\x20a\x20poem\x20consisting\x20of\x20four\x20lines.\x0aREFRAIN\x20(P)<>a\x20word,\x20phrase,\x20line,\x20or\x20group\x20of\x20lines\x20that\x20is\x20repeated,\x20for\x20effect,\x20several\x20times\x20in\x20a\x20poem.\x0aRHYTHM\x20(P)<>a\x20rise\x20and\x20fall\x20of\x20the\x20voice\x20produced\x20by\x20the\x20alternation\x20of\x20stressed\x20and\x20unstressed\x20syllables\x20in\x20language.\x20If\x20this\x20is\x20fixed\x20in\x20a\x20poem\x20it\x20is\x20considered\x20a\x20meter.\x0aRHYME\x20(P)<>Two\x20or\x20more\x20words\x20that\x20contain\x20an\x20identical\x20or\x20similar\x20sounds\x20that\x20are\x20repeated.\x0aEnd\x20Rhyme\x20(P)<>Rhyme\x20that\x20occurs\x20at\x20the\x20ends\x20of\x20lines\x20of\x20poetry\x20rather\x20than\x20within.\x0aExact\x20Rhyme\x20(P)<>Rhyme\x20that\x20consists\x20of\x20words\x20that\x20are\x20identical\x20in\x20sound-\x20go/slow\x0aFeminine\x20Rhyme\x20(P)<>A\x20rhyme\x20of\x20two\x20or\x20more\x20syllables\x20with\x20a\x20stress\x20on\x20a\x20syllable\x20other\x20than\x20the\x20last-\x20tur-tle\x20and\x20fer-tle\x0aInternal\x20Rhyme\x20(P)<>Rhyme\x20that\x20occurs\x20within\x20lines\x20of\x20poetry\x20rather\x20than\x20at\x20the\x20end\x0aMasculine\x20Rhyme\x20(P)<>Rhyme\x20that\x20consists\x20of\x20stressed\x20syllables-\x20either\x20one\x20syllable\x20words\x20\x22fox\x20and\x20socks\x22\x20or\x20words\x20whose\x20final\x20syllable\x20is\x20stressed\x20\x22con-trive\x20and\x20sur-vive\x22\x0aSlant\x20Rhyme\x20(P)<>A\x20rhyme\x20in\x20which\x20the\x20final\x20consonant\x20sounds\x20are\x20the\x20same\x20but\x20the\x20vowels\x20are\x20slightly\x20different-\x20\x22letter\x20and\x20litter\x20or\x20bone\x20and\x20bean\x22\x0aSCANSION\x20(P)<>The\x20method\x20used\x20to\x20determine\x20the\x20rhythm\x20or\x20meter\x20in\x20a\x20poem.\x20This\x20is\x20done\x20by\x20counting\x20meter\x20and\x20metrical\x20feet.\x0aSESTET\x20(P)<>Six\x20lines\x20of\x20a\x20poem\x20that\x20can\x20be\x20considered\x20as\x20a\x20stanza\x20or\x20a\x20poem\x20consisting\x20of\x20six\x20lines\x0aTERCET\x20(P)<>Three\x20lines\x20of\x20a\x20poem\x20that\x20are\x20formed\x20into\x20one\x20stanza\x20that\x20usually\x20rhymes.\x0aALLITERATION\x20(G)<>The\x20repetition\x20of\x20the\x20same\x20or\x20similar\x20consonant\x20or\x20vowel\x20sounds\x20at\x20the\x20beginning\x20of\x20closely\x20positioned\x20words.\x0aCONSONANCE\x20(G)<>the\x20repetition\x20of\x20similar\x20consonant\x20sounds\x20anywhere\x20within\x20words\x20that\x20are\x20placed\x20close\x20together.\x0aZOOMORPHISM\x20(G)<>a\x20figure\x20of\x20speech\x20in\x20which\x20animal\x20specific\x20characteristics\x20are\x20attributed\x20to\x20humans.\x0a','2699466WZXMqQ','176NEaAWN','742511wwKpGz','136207yjbzZz','52115PrrvEd','8917205vMdjxd','24tjCZPx','26241yLeEwB','6zhhuDp','12rWgLlJ','9VlbAnm'];_0x3972=function(){return _0x2c754f;};return _0x3972();}var set0=_0x5814e5(0x141);
+var set0 = `
+
+
+
+el ananá
+pineapple (masculine)
+
+
+
+la moral
+morals/ethics
+
+
+
+la sabiduría
+wisdom
+
+
+
+el amanecer
+dawn (not madrugada)
+
+
+
+el puerco/la puerca
+pig
+
+
+
+el campamento
+camp
+
+
+
+la amenaza
+threat
+
+
+
+la expectativa
+expectation
+
+
+
+la similitud
+similarity
+
+
+
+el dispositivo
+device/gadget
+
+
+
+el contratista/la contratista
+contractor (m/f)
+
+
+
+la cosecha
+harvest/crop/yield (agriculture)
+
+
+
+la beca
+scholarship
+
+
+
+el bracero/la bracero
+farm laborer
+
+
+
+el pizcador
+picker/harvester (agriculture)
+
+
+
+la choza
+hut/shack
+
+
+
+la madrugada
+dawn (not amanecer)
+
+
+
+la carcanchita
+old heap (colloquial)
+
+
+
+las apariencias
+outward appearances (plural)
+
+
+
+la capota
+roof/hood (of car)
+
+
+
+la galvanización
+galvanization (shock/ignite, coat metal)
+
+
+
+la abolladura
+dent (metal)
+
+
+
+el nudo
+knot/lump (rope)
+
+
+
+la garganta
+throat
+
+
+
+la fila
+line/row/queue
+
+
+
+la nuez
+nut (construction, food)
+
+
+
+la trompeta
+trumpet
+
+
+
+el rumbo
+direction/course
+
+
+
+el capataz/la capataz
+foreman/boss
+
+
+
+los fideos
+noodles/pasta (plural)
+
+
+
+el alivio
+relief
+
+
+
+el entusiasmo
+enthusiasm
+
+
+
+la travesía
+voyage
+
+
+
+la cima
+peak/top/height
+
+
+
+la olla
+pot (cooking)
+
+
+
+el lazo
+bow (tie; salutation)
+
+
+
+la adversidad
+adversity
+
+
+
+la secundaria
+high school
+
+
+
+el sudor
+sweat
+
+
+
+la temporada
+season
+
+
+
+el establo
+stable, barn, cowshed
+
+
+
+el jarro
+pitcher
+
+
+
+el lodo
+mud
+`
+
+var set1 = `
+
+
+
+sobrepasar
+to surpass
+
+
+
+acceder
+to agree/to access
+
+
+
+esparcir
+to scatter/to spread
+
+
+
+criar
+to raise
+
+
+
+meter
+to put/to stick/to place
+
+
+
+encargarse
+to handle/to take care of
+
+
+
+colocar
+to place/to position
+
+
+
+aburrir
+to bore
+
+
+
+pescar
+to fish
+
+
+
+realizar
+to perform/to accomplish
+
+
+
+reñir
+to scold
+
+
+
+estornudar
+to sneeze
+
+
+
+admitir
+to admit/to confess
+
+
+
+mellar
+to notch/to nick/to chip/to scratch
+
+
+
+sujetar
+to hold/to fasten/to secure
+
+
+
+asar
+to grill/to roast
+
+
+
+derramar
+to spill/to shed
+
+
+
+ensabanar
+to wrap up in sheets
+
+
+
+barrer
+to sweep
+
+
+
+apear
+to help down
+
+
+
+tapar
+to cover (with something)/to cover up
+
+
+
+sumir
+to plunge
+
+
+
+marear
+to make somebody dizzy or confused
+
+
+
+arrepentirse
+to regret it
+
+
+
+estremecer
+to shake
+
+
+
+aguar
+to water down/to spoil
+
+
+
+contemplar
+to contemplate/to gaze at/to consider
+
+
+
+empapar
+to soak
+
+
+
+rascar
+to scratch
+
+
+
+alcanzar
+to reach/to attain
+
+
+
+forjarse
+build up/to shape for oneself
+
+
+
+grabar
+to record
+
+
+
+recoger
+to pick up/to gather
+
+
+
+alejar
+to move away
+
+
+
+rogar
+to beg
+
+
+
+descolgar
+to take down
+
+
+
+girar
+to turn/to center on
+
+
+
+detallar
+to tell in detail
+
+
+
+fresar
+to mill
+
+
+
+entristecer
+to sadden/to make sad
+
+
+
+pizcar
+to pinch/to take in the harvest
+
+
+
+sobresaltar
+to startle
+
+
+
+disminuir
+to diminish/to decrease
+
+
+
+despreciar
+to despise (not menospreciar)
+
+
+
+cumplir
+to achieve/to fulfill/to carry out
+
+
+
+maximizar
+to maximize
+
+
+
+aprovechar
+to take advantage of
+
+
+
+intercambiar
+to exchange
+
+
+
+simplificar
+to simplify
+
+
+
+notar
+to notice
+
+
+
+difundir
+to spread
+
+
+
+abollar
+to dent
+
+
+
+toser
+to cough
+
+
+
+echar
+to throw away (propel)
+
+
+
+detener
+to stop/to arrest/to delay
+
+
+
+inclinar
+to incline/to tilt
+
+
+
+sostener
+to sustain
+
+
+
+deslizar
+to slide
+
+
+
+zumbar
+to buzz/to hum/to flutter around
+
+
+
+susurrar
+to whisper/to murmur
+
+
+
+matricular
+to register/to matriculate
+
+
+
+brincar
+to jump
+
+
+
+empacar
+to pack
+
+
+
+sofocar
+to suffocate
+
+
+
+agujerear
+to make holes in
+
+
+
+apuntar
+to aim/to point at/to indicate
+
+
+
+advertir
+to warn
+
+
+
+masticar
+to chew
+
+
+
+renunciar
+to resign/to relinquish
+`
+var set3 = `
+
+
+
+a
+Type "a"
+`
