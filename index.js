@@ -139,15 +139,17 @@ function reset() {
     // show selected page
     document.getElementById(s["page"]).style.display = "block"
     // resize elements
-    let height_page = window.innerHeight
+    let window_width = window.innerWidth
+    let window_height = window.innerHeight
     // resize title titles
-    let title_title_size = height_page / 15 + "px"
+    let title_title_size = window_height / 15 + "px"
     document.getElementById("title_t1").style.fontSize = title_title_size
     document.getElementById("title_t2").style.fontSize = title_title_size
     document.getElementById("title_t3").style.fontSize = title_title_size
+    document.getElementById("title_t4").style.fontSize = title_title_size
     // resize title buttons
-    let title_button_height = height_page / 20 + "px"
-    let title_button_text_height = height_page / 40 + "px"
+    let title_button_height = window_height / 20 + "px"
+    let title_button_text_height = window_height / 40 + "px"
     document.getElementById("title_b1").style.height = title_button_height
     document.getElementById("title_b1").style.fontSize = title_button_text_height
     document.getElementById("title_b2").style.height = title_button_height
@@ -162,6 +164,35 @@ function reset() {
     document.getElementById("title_b6").style.fontSize = title_button_text_height
     document.getElementById("title_b7").style.height = title_button_height
     document.getElementById("title_b7").style.fontSize = title_button_text_height
+    // spell input box
+    document.getElementById("spell_input").style.height = (window_width / 2) / 10 + "px"
+    document.getElementById("spell_input").style.fontSize = (window_width / 2) / 20 + "px"
+    // spell accent buttons
+    let spell_accent_width = (window_width / 2) / 10 + "px"
+    let spell_accent_text_size = (window_width / 2) / 20 + "px"
+    document.getElementById("accent0").style.width = spell_accent_width
+    document.getElementById("accent0").style.height = spell_accent_width
+    document.getElementById("accent0").style.fontSize = spell_accent_text_size
+    document.getElementById("accent1").style.width = spell_accent_width
+    document.getElementById("accent1").style.height = spell_accent_width
+    document.getElementById("accent1").style.fontSize = spell_accent_text_size
+    document.getElementById("accent2").style.width = spell_accent_width
+    document.getElementById("accent2").style.height = spell_accent_width
+    document.getElementById("accent2").style.fontSize = spell_accent_text_size
+    document.getElementById("accent3").style.width = spell_accent_width
+    document.getElementById("accent3").style.height = spell_accent_width
+    document.getElementById("accent3").style.fontSize = spell_accent_text_size
+    document.getElementById("accent4").style.width = spell_accent_width
+    document.getElementById("accent4").style.height = spell_accent_width
+    document.getElementById("accent4").style.fontSize = spell_accent_text_size
+    document.getElementById("accent5").style.width = spell_accent_width
+    document.getElementById("accent5").style.height = spell_accent_width
+    document.getElementById("accent5").style.fontSize = spell_accent_text_size
+    document.getElementById("accent6").style.width = spell_accent_width
+    document.getElementById("accent6").style.height = spell_accent_width
+    document.getElementById("accent6").style.fontSize = spell_accent_text_size
+
+    document.getElementById("spell_accents").style.marginLeft = (window_width - (window_width * 0.8)) / 2 + "px"
 }
 
 // event listeners

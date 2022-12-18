@@ -40,3 +40,18 @@ th, td {
 	background-color: grey;
 	color: white;
 }
+#spell_input {
+	/* center */
+	display: block;
+	margin: auto;
+	/* dimensions */
+	width: 80%;
+}
+
+#spell_input:focus {
+	border-left: 10px limegreen solid;
+}
+
+.spell_accent {
+	margin: 0px;
+}

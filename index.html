@@ -31,21 +31,23 @@
 		<button onclick="set_page('page_spell');reset();add_terms();spell_update_desc()" class="title_button" id="title_b7">Start</button>
 	</div>
 	<div id="page_spell">
-		<h1 class="text_title">Spell</h1>
+		<h1 class="text_title" id="title_t4">Spell it!</h1>
 		<button onclick="set_page('page_title');reset()">Title Page</button>
 		<button onclick="mix_terms();spell_update_desc()">Shuffle</button>
 		<br>
 		<input id="spell_input" type="text">
 		<br>
-		<button onclick="spell_char('á')">á</button>
-		<button onclick="spell_char('é')">é</button>
-		<button onclick="spell_char('í')">í</button>
-		<button onclick="spell_char('ó')">ó</button>
-		<button onclick="spell_char('ú')">ú</button>
-		<button onclick="spell_char('ü')">ü</button>
-		<button onclick="spell_char('ñ')">ñ</button>
+		<div id="spell_accents">
+			<button onclick="spell_char('á')" class="spell_accent" id="accent0">á</button>
+			<button onclick="spell_char('é')" class="spell_accent" id="accent1">é</button>
+			<button onclick="spell_char('í')" class="spell_accent" id="accent2">í</button>
+			<button onclick="spell_char('ó')" class="spell_accent" id="accent3">ó</button>
+			<button onclick="spell_char('ú')" class="spell_accent" id="accent4">ú</button>
+			<button onclick="spell_char('ü')" class="spell_accent" id="accent5">ü</button>
+			<button onclick="spell_char('ñ')" class="spell_accent" id="accent6">ñ</button>
+		</div>
 		<br>
-		<p id="spell_description">test content</p>
+		<p id="spell_description">Error: Please select a set</p>
 	</div>
 	<div id="page_spell_summary">
 		<button onclick="set_page('page_title');reset()">Title Page</button>
