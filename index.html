@@ -17,21 +17,25 @@
 <body id="body">
 	<!-- Title Page -->
 	<div id="page_title">
-		<h1 class="text_title">Select a set</h1>
-		<button onclick="set_cardset('set0')">test</button>
-		<button onclick="set_cardset('set1')">Starred Nouns</button>
-		<button onclick="set_cardset('set2')">Starred Verbs</button>
-		<button onclick="set_cardset('set3')">All Verbs</button>
-		<button onclick="set_cardset('set4')">Starred Adjectives</button>
-		<button onclick="set_gamemode('spell')" disabled="true">Mode: Spell</button>
-		<button onclick="set_page('page_spell');reset();add_terms();spell_update_desc()">Start</button>
+		<h1 class="text_title" id="title_t1">Select a set</h1>
+		<button onclick="set_cardset('set0')" class="title_button" id="title_b1">Test ABC</button>
+		<button onclick="set_cardset('set1')" class="title_button" id="title_b2">Starred Nouns</button>
+		<button onclick="set_cardset('set2')" class="title_button" id="title_b3">Starred Verbs</button>
+		<button onclick="set_cardset('set3')" class="title_button" id="title_b4">All Verbs</button>
+		<button onclick="set_cardset('set4')" class="title_button" id="title_b5">Starred Adjectives</button>
+		<br>
+		<h1 class="text_title" id="title_t2">Select a mode</h1>
+		<button onclick="set_gamemode('spell')" disabled="true" class="title_button" id="title_b6">Mode: Spell</button>
+		<br>
+		<h1 class="text_title" id="title_t3">Start</h1>
+		<button onclick="set_page('page_spell');reset();add_terms();spell_update_desc()" class="title_button" id="title_b7">Start</button>
 	</div>
 	<div id="page_spell">
 		<h1 class="text_title">Spell</h1>
 		<button onclick="set_page('page_title');reset()">Title Page</button>
+		<button onclick="mix_terms();spell_update_desc()">Shuffle</button>
 		<br>
 		<input id="spell_input" type="text">
-		<button onclick="spell_check()">Submit</button>
 		<br>
 		<button onclick="spell_char('á')">á</button>
 		<button onclick="spell_char('é')">é</button>

@@ -34,6 +34,22 @@ function add_terms() {
             s["cards"].push([term, definition, 0])
         }
     }
+    console.clear()
+    console.table(s["cards"])
+}
+
+
+function mix_terms() {
+    let output = []
+    while (s["cards"].length > 0) {
+        let rand = Math.round(Math.random() * (s["cards"].length - 1))
+        if (s["cards"][rand] != "") {
+            output.push(s["cards"][rand])
+            s["cards"].splice(rand, 1)
+        }
+    }
+    s["cards"] = output
+    console.clear()
     console.table(s["cards"])
 }
 
@@ -120,13 +136,44 @@ function reset() {
     document.getElementById("page_title").style.display = "none"
     document.getElementById("page_spell").style.display = "none"
     document.getElementById("page_spell_summary").style.display = "none"
-
     // show selected page
     document.getElementById(s["page"]).style.display = "block"
-
+    // resize elements
+    let height_page = window.innerHeight
+    // resize title titles
+    let title_title_size = height_page / 15 + "px"
+    document.getElementById("title_t1").style.fontSize = title_title_size
+    document.getElementById("title_t2").style.fontSize = title_title_size
+    document.getElementById("title_t3").style.fontSize = title_title_size
+    // resize title buttons
+    let title_button_height = height_page / 20 + "px"
+    let title_button_text_height = height_page / 40 + "px"
+    document.getElementById("title_b1").style.height = title_button_height
+    document.getElementById("title_b1").style.fontSize = title_button_text_height
+    document.getElementById("title_b2").style.height = title_button_height
+    document.getElementById("title_b2").style.fontSize = title_button_text_height
+    document.getElementById("title_b3").style.height = title_button_height
+    document.getElementById("title_b3").style.fontSize = title_button_text_height
+    document.getElementById("title_b4").style.height = title_button_height
+    document.getElementById("title_b4").style.fontSize = title_button_text_height
+    document.getElementById("title_b5").style.height = title_button_height
+    document.getElementById("title_b5").style.fontSize = title_button_text_height
+    document.getElementById("title_b6").style.height = title_button_height
+    document.getElementById("title_b6").style.fontSize = title_button_text_height
+    document.getElementById("title_b7").style.height = title_button_height
+    document.getElementById("title_b7").style.fontSize = title_button_text_height
 }
 
-// onload
+// event listeners
+window.addEventListener("keydown", (event) => {
+    if (s["page"] == "page_spell") {
+        if (event.key == "Enter") {
+            spell_check()
+        }
+    }
+});
+
+
 window.addEventListener('load', (event) => {
     reset()
 })

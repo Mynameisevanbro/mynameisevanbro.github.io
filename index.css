@@ -14,7 +14,15 @@
 	background: rgb(50, 50, 50);
 }
 
+
+.title_button {
+	display: block;
+	width: 90%;
+	margin: auto;
+}
+
 .text_title {
+	text-align: center;
 	color: white;
 	width:100%,
 }

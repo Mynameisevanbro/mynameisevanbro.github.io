@@ -4,6 +4,16 @@ var set0 = `
 
 a
 Type "a"
+
+
+
+b
+Type "b"
+
+
+
+c
+Type "c"
 `
 var set1 = `
 
