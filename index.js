@@ -4,7 +4,9 @@ var s = {
     "gamemode": "spell",
     "cardset": "",
     "cards": [],
+    "cards_total": 0,
     "cards_complete": [],
+    "input_correction": false,
 }
 
 // set variables
@@ -31,9 +33,11 @@ function add_terms() {
         let term = term_definition[0]
         let definition = term_definition[1]
         if (term != "") {
-            s["cards"].push([term, definition, 0])
+            // term, defintion, times incorrect, times correct
+            s["cards"].push([term, definition, 0, 0])
         }
     }
+    s["cards_total"] = s["cards"].length
     console.clear()
     console.table(s["cards"])
 }
@@ -73,15 +77,21 @@ function spell_summary_table() {
 }
 
 
-function spell_remove_perfect() {
-    let card_removed = []
-    for (let i = 0; i < s["cards_complete"].length; i++) {
-        let card = s["cards_complete"][i]
-        if (card[2] > 0) {
-            card_removed.push(card)
+function spell_rank() {
+    let cards_rank = []
+    let rank = 0
+    while (s["cards_complete"].length > 0) {
+        for (let i = 0; i < s["cards_complete"].length; i++) {
+            let card = s["cards_complete"][i]
+            console.log(card[2], rank)
+            if (card[2] == rank) {
+                cards_rank.push(card)
+                s["cards_complete"].splice(i, 1)
+            }
         }
+        rank += 1
     }
-    s["cards_complete"] = card_removed
+    s["cards_complete"] = cards_rank
     spell_summary_table()
 }
 
@@ -96,20 +106,43 @@ function spell_check() {
     let input_box = document.getElementById("spell_input")
     let input = input_box.value
     if (input == s["cards"][0][0]) {
-        s["cards_complete"].push(s["cards"][0])
-        s["cards"].shift()
-        if (s["cards"].length > 0) {
+        if (s["input_correction"]) {
+            s["input_correction"] = false
+            mix_terms()
             spell_update_desc()
         } else {
-            set_page("page_spell_summary")
-            reset()
-            // table
-            spell_summary_table()
+            s["cards"][0][3] += 1  // add to "times correct" counter
+            // remove card if completed
+            if (s["cards"][0][3] >= 2) {
+                s["cards_complete"].push(s["cards"][0])
+                s["cards"].shift()
+            }
+            // next card
+            if (s["cards"].length > 0) {
+                mix_terms()
+                spell_update_desc()
+            } else {
+                // summary page
+                set_page("page_spell_summary")
+                reset()
+                // table
+                spell_summary_table()
+            }
         }
+        // update status
+        const status = document.getElementById("title_t4")
+        let cards_left = s["cards"].length
+        let cards_percent = Math.round(((s["cards_total"] - cards_left) / s["cards_total"]) * 100)
+        status.innerHTML = `${cards_percent}% (${s["cards_total"] - cards_left}/${s["cards_total"]})`
+        
     } else {
         input_box.placeholder = s["cards"][0][0]
-        // add to "times missed" counter
+        // add to "times incorrect" counter
         s["cards"][0][2] += 1
+        // reset "times correct" counter
+        s["cards"][0][3] = 0
+        // input correction mode (do again later)
+        s["input_correction"] = true
     }
     // focus on text box
     input_box.focus()
@@ -162,11 +195,12 @@ function reset() {
     document.getElementById("title_b5").style.fontSize = title_button_text_height
     document.getElementById("title_b6").style.height = title_button_height
     document.getElementById("title_b6").style.fontSize = title_button_text_height
-    document.getElementById("title_b7").style.height = title_button_height
-    document.getElementById("title_b7").style.fontSize = title_button_text_height
     // spell input box
     document.getElementById("spell_input").style.height = (window_width / 2) / 10 + "px"
     document.getElementById("spell_input").style.fontSize = (window_width / 2) / 20 + "px"
+    // spell input box
+    document.getElementById("spell_description").style.fontSize = (window_width / 2) / 20 + "px"
+    document.getElementById("spell_description").style.marginLeft = (window_width - (window_width * 0.8)) / 2 + "px"
     // spell accent buttons
     let spell_accent_width = (window_width / 2) / 10 + "px"
     let spell_accent_text_size = (window_width / 2) / 20 + "px"

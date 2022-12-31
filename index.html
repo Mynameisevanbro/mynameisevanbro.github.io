@@ -10,7 +10,6 @@
 	<!-- font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
 	<!-- sets -->
 	<script type="text/javascript" src="set0.js"></script>
 </head>
@@ -18,17 +17,16 @@
 	<!-- Title Page -->
 	<div id="page_title">
 		<h1 class="text_title" id="title_t1">Select a set</h1>
-		<button onclick="set_cardset('set0')" class="title_button" id="title_b1">Test ABC</button>
-		<button onclick="set_cardset('set1')" class="title_button" id="title_b2">Starred Nouns</button>
-		<button onclick="set_cardset('set2')" class="title_button" id="title_b3">Starred Verbs</button>
-		<button onclick="set_cardset('set3')" class="title_button" id="title_b4">All Verbs</button>
-		<button onclick="set_cardset('set4')" class="title_button" id="title_b5">Starred Adjectives</button>
+		<button onclick="set_cardset('set0')" class="title_button" id="title_b1">Starred Nouns</button>
+		<button onclick="set_cardset('set1')" class="title_button" id="title_b2">Starred Verbs</button>
+		<button onclick="set_cardset('set2')" class="title_button" id="title_b3">All Verbs</button>
+		<button onclick="set_cardset('set3')" class="title_button" id="title_b4">Starred Adjectives</button>
 		<br>
 		<h1 class="text_title" id="title_t2">Select a mode</h1>
-		<button onclick="set_gamemode('spell')" disabled="true" class="title_button" id="title_b6">Mode: Spell</button>
+		<button onclick="set_gamemode('spell')" disabled="true" class="title_button" id="title_b5">Mode: Spell</button>
 		<br>
 		<h1 class="text_title" id="title_t3">Start</h1>
-		<button onclick="set_page('page_spell');reset();add_terms();spell_update_desc()" class="title_button" id="title_b7">Start</button>
+		<button onclick="set_page('page_spell');reset();add_terms();spell_update_desc()" class="title_button" id="title_b6">Start</button>
 	</div>
 	<div id="page_spell">
 		<h1 class="text_title" id="title_t4">Spell it!</h1>
@@ -51,7 +49,7 @@
 	</div>
 	<div id="page_spell_summary">
 		<button onclick="set_page('page_title');reset()">Title Page</button>
-		<button onclick="spell_remove_perfect()">Remove Perfect</button>
+		<button onclick="spell_rank()">Rank</button>
 		<br>
 		<table id="spell_summary"></table>
 	</div>

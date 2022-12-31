@@ -2,38 +2,6 @@ var set0 = `
 
 
 
-a
-Type "a"
-
-
-
-b
-Type "b"
-
-
-
-c
-Type "c"
-`
-var set1 = `
-
-
-
-el ananá
-pineapple (masculine)
-
-
-
-la moral
-morals/ethics
-
-
-
-la sabiduría
-wisdom
-
-
-
 el amanecer
 dawn (not madrugada)
 
@@ -54,21 +22,6 @@ threat
 
 
 
-la expectativa
-expectation
-
-
-
-la similitud
-similarity
-
-
-
-el dispositivo
-device/gadget
-
-
-
 el contratista/la contratista
 contractor (m/f)
 
@@ -76,11 +29,6 @@ contractor (m/f)
 
 la cosecha
 harvest/crop/yield (agriculture)
-
-
-
-la beca
-scholarship
 
 
 
@@ -96,11 +44,6 @@ picker/harvester (agriculture)
 
 la choza
 hut/shack
-
-
-
-la madrugada
-dawn (not amanecer)
 
 
 
@@ -231,9 +174,24 @@ pitcher
 
 el lodo
 mud
+
+
+
+el corredor
+runner
+
+
+
+la confianza
+la confianza
+
+
+
+la libreta
+notebook (feminine)
 `
 
-var set2 = `
+var set1 = `
 
 
 
@@ -258,7 +216,7 @@ to raise
 
 
 meter
-to put/to stick/to place
+to put/to stick/to place (not poner/colocar)
 
 
 
@@ -268,7 +226,7 @@ to handle/to take care of
 
 
 colocar
-to place/to position
+to place/to position (not poner/meter)
 
 
 
@@ -283,7 +241,7 @@ to fish
 
 
 realizar
-to perform/to accomplish
+to perform/to accomplish (not cumplir)
 
 
 
@@ -362,18 +320,8 @@ to shake
 
 
 
-aguar
-to water down/to spoil
-
-
-
 contemplar
 to contemplate/to gaze at/to consider
-
-
-
-empapar
-to soak
 
 
 
@@ -407,18 +355,8 @@ to move away
 
 
 
-rogar
-to beg
-
-
-
 descolgar
 to take down
-
-
-
-girar
-to turn/to center on
 
 
 
@@ -427,23 +365,8 @@ to tell in detail
 
 
 
-fresar
-to mill
-
-
-
 entristecer
 to sadden/to make sad
-
-
-
-pizcar
-to pinch/to take in the harvest
-
-
-
-sobresaltar
-to startle
 
 
 
@@ -458,47 +381,12 @@ to despise (not menospreciar)
 
 
 cumplir
-to achieve/to fulfill/to carry out
-
-
-
-maximizar
-to maximize
-
-
-
-aprovechar
-to take advantage of
-
-
-
-intercambiar
-to exchange
-
-
-
-simplificar
-to simplify
-
-
-
-notar
-to notice
+to achieve/to fulfill/to carry out (not lograr)
 
 
 
 difundir
 to spread
-
-
-
-abollar
-to dent
-
-
-
-toser
-to cough
 
 
 
@@ -512,48 +400,8 @@ to stop/to arrest/to delay
 
 
 
-inclinar
-to incline/to tilt
-
-
-
-sostener
-to sustain
-
-
-
-deslizar
-to slide
-
-
-
-zumbar
-to buzz/to hum/to flutter around
-
-
-
-susurrar
-to whisper/to murmur
-
-
-
 matricular
 to register/to matriculate
-
-
-
-brincar
-to jump
-
-
-
-empacar
-to pack
-
-
-
-sofocar
-to suffocate
 
 
 
@@ -572,6 +420,8 @@ to warn
 
 
 
+No estudiados (6)
+¡Todavía no has estudiado estos términos!
 masticar
 to chew
 
@@ -579,8 +429,28 @@ to chew
 
 renunciar
 to resign/to relinquish
+
+
+
+remar
+to row/to paddle
+
+
+
+patinar
+to skate/to rollerblade
+
+
+
+forzar
+to force/to stress
+
+
+
+suponer
+to suppose/to assume
 `
-var set3 = `
+var set2 = `
 
 
 
@@ -1650,7 +1520,7 @@ to describe
 
 
 cumplir
-to achieve/to fulfill/to carry out
+to achieve/to fulfill/to carry out (not lograr)
 
 
 
@@ -1695,12 +1565,12 @@ to notice
 
 
 meter
-to put/to stick/to place
+to put/to stick/to place (not poner/colocar)
 
 
 
 rogar
-to beg
+to beg (not suplicar)
 
 
 
@@ -1710,7 +1580,7 @@ to handle/to take care of
 
 
 colocar
-to place/to position
+to place/to position (not poner/meter)
 
 
 
@@ -1730,7 +1600,7 @@ to fish
 
 
 realizar
-to perform/to accomplish
+to perform/to accomplish (not cumplir)
 
 
 
@@ -1880,7 +1750,7 @@ to register/to matriculate
 
 
 brincar
-to jump
+to jump (not saltar)
 
 
 
@@ -1981,8 +1851,28 @@ to diminish/to decrease
 
 alejar
 to move away
+
+
+
+remar
+to row/to paddle
+
+
+
+patinar
+to skate/to rollerblade
+
+
+
+forzar
+to force/to stress
+
+
+
+suponer
+to suppose/to assume
 `
-var set4 = `
+var set3 = `
 
 
 
